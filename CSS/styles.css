@@ -90,6 +90,9 @@ p {
     text-decoration:none;
     font-weight:400;
     justify-self:center;
+    border-right: #292663 solid 1px;
+    border-left: #292663 solid 1px;
+    padding: 20px 25px 20px 25px;
 }
 
 /*===Hero Selectors===*/
@@ -189,11 +192,11 @@ p {
     align-self: center;
     width:100%;
 }
+
 /*===Stories Selectors===*/
 
 .stories-landing {
-    height:60vh;
-  
+    height:60vh;  
     padding:20px;
     margin:0 auto;
     background-color: #292663;
@@ -220,6 +223,7 @@ p {
 .service-container h2 {
     color:black
 }
+
 /*===Team Selectors===*/
 
 .team-landing {
