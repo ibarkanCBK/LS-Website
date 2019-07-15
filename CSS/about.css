@@ -1,0 +1,78 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: center;
+	color: #292663
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#proverb {
+	font-weight: 250;
+	font-style: italic;
+}
+
+#our-approach-group {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#our-approach-group > button {
+	width: 900;
+}
+
+.team-large{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 30px;
+}
+
+.team-large > img {
+	padding-left: 30px;
+	flex-shrink: 0;
+	align-self: center;
+}
+.team-large > p {
+	display: flex;
+	flex-direction: column;
+}
+
+.team-small{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 30px;
+}
+
+.team-small > img {
+	padding-left: 30px;
+	flex-shrink: 0;
+	align-self: center;
+}
+.team-small > p {
+	display: flex;
+	flex-direction: column;
+}
+
+.trainer-group{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 20px;
+}
+
+.trainer {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
