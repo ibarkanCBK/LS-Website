@@ -23,6 +23,8 @@ p {
   flex-flow: column;
   align-items: center;
   padding-bottom: 30px;
+  padding-left: 75;
+  padding-right: 75;
 }
 
 .services-header > button {
