@@ -1,5 +1,30 @@
+/*===This is the LESS stylesheet for the Lion's Story Website===*/
+
+/*===Lion's Story Brand Colors===*/
+
+/*---Primary Colors---*/
+
+/* @midnight-blue-primary: #292663;
+@marigold-primary:  ; */
+
+/*---Secondary Colors---*/ 
+/* @emerald-secondary: #14b069;
+@magenta-secondary: #dd2c74;
+@sapphire-secondary: #428cf5;
+@burnt-orange-secondary: #f04d24;
+@nutmeg-secondary: #753626; */
+
+/*===Lion's Story Fonts===*/
+
+/* @title-font: 'Roboto', sans-serif;
+@body-font: 'Lato', sans-serif; */
+
+
+
+
 body {
 	font-family: 'Lato', sans-serif;
+	color: #292663;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -42,7 +67,7 @@ p {
     padding:0;   
 }
 .inner {
-    background: ;
+    /* background:rgb(00,00,00,.5) ; */
     height:50vh;
     display:flex;
     align-items:center;
@@ -65,6 +90,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	padding-bottom: 30px;
+	background-color:rgb(20, 176, 105,.5);
 }
 
 .team-large > img {

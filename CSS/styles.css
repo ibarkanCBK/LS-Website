@@ -14,7 +14,6 @@
 @burnt-orange-secondary: #f04d24;
 @nutmeg-secondary: #753626; */
 
-
 /*===Lion's Story Fonts===*/
 
 /* @title-font: 'Roboto', sans-serif;
@@ -43,7 +42,8 @@ p {
     line-height:2em;
 }
 i {
-    font-size:3em;
+    font-size:2.5em;
+    margin-right:40px;
 }
 
 
@@ -59,11 +59,11 @@ i {
     font-weight:bold;
     text-align:center;
 }
-.landing-container.contact {
+.landing-container-contact {
     height:100%;
     display:flex;
     padding:1% 4% 4% 3%;
-    background-color:#faab21;
+    background-color:#292663;
 }
 /*===Navigation Selectors===*/
 
@@ -137,7 +137,7 @@ i {
 
 .services-landing {
     display:grid;
-    grid-template-rows:.5fr 2fr 1fr 1fr;
+    grid-template-rows:.5fr 2fr  fit-content(.2fr) 1fr;
     margin:0 auto;
     background-color: #faab21;
     text-align:center;
@@ -145,6 +145,9 @@ i {
 }
 .services-landing h2 {
     color:#292663;
+    padding-top:3%;
+    font-size:3em;
+    padding-bottom:3%;
     
 }
 
@@ -154,7 +157,7 @@ i {
 }
 
 .services-landing div.learn-more {
-    height:10%;
+    /* height:10%; */
 }
 .services-block {
     background-color:#f04d24;
@@ -189,10 +192,10 @@ i {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
-    grid-template-areas: " image image image values aproach history"
-                         " image image image para para para"
-                         " image image image para para para"
-                         " image image image para para para"
+    grid-template-areas: " image image card card card card"
+                         " image image para para para para"
+                         " image image para para para para"
+                         " image image para para para para"
                          ;
     padding:0;
     margin:0 auto;
@@ -201,7 +204,7 @@ i {
 }
 .about-image {
     height:100%;;
-    background-image: url("/stock-photos/AdobeStock_104691826_Preview.jpeg");
+    background-image: url("/stock-photos/AdobeStock_105654266_Preview.jpeg");
     /* /* background:no-repeat; */
     background-size:cover; 
     grid-area: image;
@@ -213,12 +216,14 @@ i {
 }
 .about-card h2 {
     color:black;
-    padding:3px 10px 5px 18px;
+    padding: 3px 10px 5px 18px;
+    grid-area: card;
+    font-size:2em;
 }
 .about-text {
 /* justify-self: center; */
     align-self: center;
-   
+    font-size:.95em;
     height: 100%;
     grid-area:para;
     padding:35px;
@@ -235,6 +240,8 @@ i {
 }
 .services-landing h2 {
     color:#292663;
+    font-size:2.5em;
+    padding-top:3%;
     
 }
 
@@ -269,8 +276,12 @@ i {
  width:100%;
  margin:0;
 }
-.service-container h2 {
-    color:black
+.story-container h2 {
+    color:#292663;
+    padding-top:3%;
+    font-size:2em;
+    padding-bottom:3%;
+    
 }
 /*===Team Selectors===*/
 .team-landing {
@@ -317,14 +328,26 @@ i {
 
 /*===Contact Selectors===*/
 .landing-container-contact {
-    height:100%;
+
+
 }
 .contact-landing {
-    display:flex;
+    display:grid;
+   grid-template-rows: fit-content(50px)  fit-content(300px);
     padding:20px;
     margin:0 auto;
-    background-color:  #dd2c74;
-    height:100%;
+    background-color: #faab21 ;
+
+    width:100%;
+}
+.contact-landing h2 {
+ margin:0;
+ display:inline;
+ text-align:center;
+ padding:10px;
+}
+#contact {
+    padding-bottom:  0 !important;
 }
 
 /*===footer Selectors===*/
@@ -337,7 +360,7 @@ i {
  display:grid;
  grid-template-columns: 1fr 1fr 1fr 1fr;
  grid-template-rows: 1fr 1fr 1fr;
- grid-gap: 10px;
+ grid-gap: 20px;
  grid-template-areas: 
       "header header signup signup"
       "header header signup signup"
@@ -353,7 +376,8 @@ i {
     padding-left:20px;
 }
 .footer-logo img {
-    padding:0 auto;
+    padding:10px auto 20px auto;
+    margin-bottom:10%;
     height:20vh;
 }
 .footer-menu {
@@ -363,7 +387,7 @@ i {
     /* height:100%;     */
 }
 .footer-logo-nav-menu {
- 
+
     grid-area:header;
     text-align:center;
     
@@ -373,18 +397,30 @@ i {
 }
 
 .newsletter-signup {
-    text-align:center;
+    padding-top:3%;
     grid-area:signup;
 }
-.bottom-footer { 
-    grid-area: footer;
+.container{
+    padding:0;
+    text-align: center;
 }
 
+.bottom-footer { 
+    grid-area: footer;
+    justify-self: end;
+    padding-right:15%;
+   
+
+}
+.bottom-footer i { 
+    margin-top:20px;
+}
 
 /*===Buttons===*/
 .learn-more{
     justify-self: center;
     margin:0 auto;
+    padding-top:2%;
 } 
 
 
@@ -598,7 +634,7 @@ i {
  /*===Services Selectors===*/
   .services-landing {
     display:grid;
-    grid-template-rows:.7fr .8fr 1fr ;
+    grid-template-rows:.5fr 2fr  fit-content(.2fr) 1fr;
     margin:0 auto;
     background-color: #faab21;
     text-align:center;
@@ -757,7 +793,7 @@ i {
  /*===Services Selectors===*/
   .services-landing {
     display:grid;
-    grid-template-rows:.7fr .8fr 1fr ;
+   grid-template-rows:.5fr  fit-content(.2fr) 1fr;
     margin:0 auto;
     background-color: #faab21;
     text-align:center;
