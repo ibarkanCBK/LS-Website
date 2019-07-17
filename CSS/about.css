@@ -25,6 +25,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: #292663;
+	background-color:#faab21;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -45,6 +46,7 @@ p {
 #proverb {
 	font-weight: 250;
 	font-style: italic;
+	
 }
 
 #our-approach-group {
@@ -90,7 +92,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	padding-bottom: 30px;
-	background-color:rgb(20, 176, 105,.5);
+	
 }
 
 .team-large > img {
