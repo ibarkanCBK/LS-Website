@@ -33,6 +33,34 @@ p {
 	width: 900;
 }
 
+.hero-about {
+    height:50vh;
+    width:100vw;
+    background-image:  url("/stock-photos/AdobeStock_105892254_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:0;   
+}
+.inner {
+    background: ;
+    height:50vh;
+    display:flex;
+    align-items:center;
+	justify-content: center;
+	flex-direction:column;
+}
+.hero-about h1 {
+	background-color:rgb(20, 176, 105,.5);
+	margin:0;
+	flex-direction:row;
+    padding:2% 5% 2% 5%;
+    font-size:4.5em;
+    font-weight:bold;
+    width:65%;
+    margin:0 auto;
+}
+
+
 .team-large{
 	display: flex;
 	flex-direction: row;

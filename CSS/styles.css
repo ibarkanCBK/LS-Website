@@ -1,7 +1,4 @@
-
 /*===This is the LESS stylesheet for the Lion's Story Website===*/
-
-
 
 /*===Lion's Story Brand Colors===*/
 
@@ -95,9 +92,7 @@ i {
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
     align-content: center;
-    height:100%;
-    
-    
+    height:100%;    
   }
 .nav-menu a {
     margin-right:1.5em;
@@ -230,11 +225,6 @@ i {
 }
 
 /*===Stories Selectors===*/
-
-
-
-
-
 .stories-landing {
     display:grid;
     grid-template-rows:.5fr 2fr 1fr 1fr;
@@ -325,9 +315,6 @@ i {
     color:black
 }
 
-
-
-
 /*===Contact Selectors===*/
 .landing-container-contact {
     height:100%;
@@ -399,58 +386,7 @@ i {
     justify-self: center;
     margin:0 auto;
 } 
-a.button {
-  display: block;
-  position: relative;
-  float: left;
-  width: 120px;
-  padding: 0;
-  margin: 10px 20px 10px 0;
-  font-weight: 600;
-  text-align: center;
-  line-height: 50px;
-  color: #FFF;
-  border-radius: 5px;
-  transition: all 0.2s ;
-}
 
-.btnFloat {
-  background: none;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
-}
-
-.btnFloat:before {
-  content: 'Learn More';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120px;
-  height: 50px;
-  border-radius: 5px;
-  transition: all 0.2s ;
-}
-
-.btnGreen.btnFloat:before {
-  background:   #dd2c74;
-}
-
-.btnFloat:before {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
-}
-
-.btnFloat:hover:before {
-  background:  #14b069;
-}
-
-.btnFloat:hover:before {
-  margin-top: -2px;
-  margin-left: 0px;
-  transform: scale(1.1,1.1);
-  -ms-transform: scale(1.1,1.1);
-  -webkit-transform: scale(1.1,1.1);
-  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.25);
-}
 
 
 
