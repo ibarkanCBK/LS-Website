@@ -11,7 +11,7 @@
 /* @emerald-secondary: #14b069;
 @magenta-secondary: #dd2c74;
 @sapphire-secondary: #428cf5;
-@burnt-orange-secondary: #f04d24;
+@burnt-orange-secondary: #ffffff;
 @nutmeg-secondary: #753626; */
 
 /*===Lion's Story Fonts===*/
@@ -160,7 +160,7 @@ i {
     /* height:10%; */
 }
 .services-block {
-    background-color:#f04d24;
+    background-color:#ffffff;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-column-gap:3%;
@@ -199,7 +199,7 @@ i {
                          ;
     padding:0;
     margin:0 auto;
-    background-color:  #f04d24;
+    background-color:  #ffffff;
     height:80vh;
 }
 .about-image {
@@ -254,7 +254,7 @@ i {
     height:10%;
 }
 .stories-block {
-    background-color:#f04d24;
+    background-color:#ffffff;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-column-gap:3%;
@@ -301,7 +301,7 @@ i {
     height:10%;
 }
 .team-block {
-    background-color:#f04d24;
+    background-color:#ffffff;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-column-gap:3%;
