@@ -42,7 +42,7 @@ p {
 
 
 .hero-services {
-    height:50vh;
+    height:70vh;
     width:100vw;
     background-image:  url("/stock-photos/AdobeStock_199931209_Preview.jpeg");
     background-repeat: no-repeat;
@@ -51,14 +51,14 @@ p {
 }
 .inner {
     background: ;
-    height:50vh;
+    height:70vh;
     display:flex;
     align-items:center;
 	justify-content: center;
 	flex-direction:column;
 }
 .hero-services h1 {
-	background-color:rgb(221,44,116,.8);
+	background-color:rgba(161, 53, 96, 0.8);
 	margin:0;
 	flex-direction:row;
     padding:2% 5% 2% 5%;

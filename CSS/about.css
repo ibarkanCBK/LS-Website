@@ -59,8 +59,8 @@ p {
 }
 
 .hero-about {
-    height:50vh;
-    width:100vw;
+    height:70vh;
+    /* width:100vw; */
     background-image:  url("/stock-photos/AdobeStock_105892254_Preview.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -68,7 +68,7 @@ p {
 }
 .inner {
     /* background:rgb(00,00,00,.5) ; */
-    height:50vh;
+    height:70vh;
     display:flex;
     align-items:center;
 	justify-content: center;
@@ -85,7 +85,9 @@ p {
     margin:0 auto;
 }
 
-
+.racial-literacy [
+	position:fixed;
+]
 .team-large{
 	display: flex;
 	flex-direction: row;

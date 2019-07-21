@@ -124,12 +124,10 @@ i {
     align-content: center;
 }
 .hero-landing img {
-    padding-top:2%;
+   
     background-color: rgba(240,77,36,.92);
     color:#faab21;
-    font-size:6em;
-    font-weight:bold;
-    width:65%;
+    width:25%;
     margin:0 auto;
 }
 
@@ -376,8 +374,9 @@ i {
     padding-left:20px;
 }
 .footer-logo img {
-    padding:10px auto 20px auto;
+    padding:30px auto 20px auto;
     margin-bottom:10%;
+    margin-top:5%;
     height:20vh;
 }
 .footer-menu {
