@@ -125,7 +125,7 @@ i {
 .hero-landing {
     height:80vh;
     width:100vw;
-    background-image:  url('../img/stock-photos/hero-landing.jpeg');
+    background-image:url('../img/stock-photos/hero-landing.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
     text-align:center;
