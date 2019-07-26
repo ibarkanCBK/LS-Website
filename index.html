@@ -4,152 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Lion's Story</title>
-    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/03070fdfa6.js"></script>
-    <!-- <link rel="stylesheet/less" type="text/css" href="CSS/styles.less" />
-    <script src="less.js" type="text/javascript"></script> -->
+    <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
+    <!-- Navigation Section -->
   <div class="navigation-bar">
     <div class="nav-logo">
-      <a href="index.html"><img src="/Branding/LionsStory-IGlogo.png" alt="Lion's Story Logo"></a>
+      <a href="index.html"><img src="/img/ls-branding-images/LionsStory-IGlogo.png" alt="Lion's Story Logo"></a>
     </div>
 
     <div class="nav-menu">
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="stories.html">Stories</a>
-      <a href="resources.html">Resources</a>
+      <a href="html/about.html">About</a>
+      <a href="html/services.html">Services</a>
+      <a href="html/stories.html">Stories</a>
+      <a href="html/resources.html">Resources</a>
     </div>
   </div>
 
+<!-- Hero Section-->
   <div class="hero-landing " id="hero-landing">
     <div class="inner">
-      <img src="/branding/LionsStory-IGlogo.png">
+      <img src="/img/ls-branding-images/LionsStory-IGlogo.png">
     </div>
   </div>
-
+<!-- Services Section -->
   <div class="landing-container">
     <div class="services-landing " id="">
       <h2>Services</h2>
       <div class="about-services" id="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua.</p>
+        <p>Lion’s Story develops and focuses on racial literacy via three types of services: foundational training, consulting and
+        assessment. Our services are facilitated by clinicians, therapists, diversity & inclusion specialists, administrators
+        and thought leaders in the field.</p>
       </div>
-
       <div class="learn-more" id="">
         <a href="" title="Button border gree" class="button btnFloat btnGreen">Learn more</a>
       </div>
 
-      <div class="services-block">
-        <div class="service-container" id="">
+      <div class="services-deck">
+        <div class="service-card" id="">
           <h2>Training</h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+          <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+          <p>Trainings are the primary medium with which we introduce racial literacy and build skills in people and organizations.</p>
         </div>
-        <div class="service-container" id="">
+        <div class="service-card" id="">
           <h2>Consultation</h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+          <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+          <p>We consult with organizations who have participated in our trainings (or are planning to do so) and are willing to
+          commit stakeholders, time and resources in order to become more racially literate.
           </p>
         </div>
-        <div class="service-container" id="">
+        <div class="service-card" id="">
           <h2>Assessment</h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
+          <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+          <p>We assess an organization’s current racial literacy climate and skills as well as continue to assess their progress and
+          development as well.
+          literate.</p>
         </div>
       </div>
     </div>
   </div>
-  
+
+  <!-- About Section -->
   <div class="about-landing" id="">
     <div class="about-image">
   
     </div>
-    <div class="about-card-container">
-      <div class="about-card" id="">
-        <h2>Values</h2>
+    <div class="clickable-container">
+      <div class="about-tab">
+        <button class="tablinks" onclick="openCard(event,'approach')">Approach</button>
+        <button class="tablinks" onclick="openCard(event, 'values')">Values</button>
+        <button class="tablinks" onclick="openCard(event, 'history')">History</button>
       </div>
-      <div class="about-card" id="">
-        <h2>Approach</h2>
+      <div class="about-deck">
+        <div class="about-card" id="values">
+          <h2>Values</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </p>
+        </div>
+        <div class="about-card" id="approach">
+          <h2>Approach</h2>
+          <p>Lion’s Story teaches culturally relevant, mindfulness, cognitive-behavioral, relationship-building strategies that are
+          based on thirty years of racial socialization research by Dr. Howard C. Stevenson of the University of Pennsylvania.
+          
+          Racial literacy is the ability to read, recast, and resolve racially stressful or identity-based encounters. This
+          literacy is developed through supportive and repeated practice of healthy racial coping behaviors. The training of
+          racial literacy involves the creation of humane spaces that provide affirming and protective feedback that also holds
+          participants accountable as they learn to build their racial confidence, reduce their stress during racially charged
+          moments, and negotiate racial conflicts to healthy conclusions.
+          
+          How do we practice racial literacy? Our team of trainers facilitates mindfulness-infused activities for individuals and
+          groups that encourage participants to “courageously notice” their thoughts, feelings, and body reactions as they
+          navigate racial stories from (or about) their childhood, family, and professional dilemmas.</p>
+        </div>
+        <div class="about-card" id="history">
+          <h2>History</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </div>
       </div>
-      <div class="about-card" id="">
-        <h2>History</h2>
+    </div>
+  </div>
+<!-- Hear from the Village Section -->
+<div class="landing-container">
+  <div class="stories-landing" id="">
+    <h2>Hear From The Village</h2>
+    <div class="stories-deck">
+      <div class="story-card" id="">
+        <h2>testimonial#1</h2>
+        <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
       </div>
-     
+      <div class="story-card" id="">
+        <h2>testimonial#2</h2>
+        <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
       </div>
-        <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        
-            orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
+      <div class="story-card" id="">
+        <h2>testimonial#3</h2>
+        <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+      </div>
+    </div>
+    <div class="learn-more" id="">
+      <a href="" title="Button border green" class="button btnFloat btnGreen">Learn more</a>
     </div>
   </div>
 
-  <div class="landing-container">
-    <div class="stories-landing" id="">
-      <h2>Hear From The Village</h2>
-      <div class="stories-block">
-        <div class="story-container" id="">
-          <h2></h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
-        </div>
-        <div class="story-container" id="">
-          <h2></h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
-        </div>
-        <div class="story-container" id="">
-          <h2></h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
-        </div>
-      </div>
-      <div class="learn-more" id="">
-        <a href="" title="Button border green" class="button btnFloat btnGreen">Learn more</a>
-      </div>
-    </div>
 
+</div>
 
-  </div>
+  <!-- Team Section -->
   <div class="landing-container">
-    <div class="services-landing " id="#team-landing">
+    <div class="team-landing " id="#team-landing">
       <h2>Team</h2>
-      <div class="about-services" id="">
+      <div class="team-services" id="">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -164,27 +169,27 @@
         <a href="" title="Button border gree" class="button btnFloat btnGreen">Learn more</a>
       </div>
   
-      <div class="services-block">
-        <div class="service-container" id="">
+      <div class="team-deck">
+        <div class="team-card" id="">
           <h2>Team Member</h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+          <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.</p>
         </div>
-        <div class="service-container" id="">
+        <div class="team-card" id="">
           <h2>Team Member</h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+          <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
         </div>
-        <div class="service-container" id="">
+        <div class="team-card" id="">
           <h2>Team Member</h2>
-          <img src="/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
+          <img src="/img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -217,7 +222,13 @@
               <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
             </fieldset>
             <fieldset>
-              <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+            <input type="checkbox" name="vehicle1" value="Training">Training<br>
+            <input type="checkbox" name="vehicle2" value="Consulting"> Consulting<br>
+            <input type="checkbox" name="vehicle3" value="Assessments" checked>Assessments<br>
+            <input type="checkbox" name="vehicle3" value="General" checked>General Information<br>
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Type your Message Here...." tabindex="6" required></textarea>
             </fieldset>
             <fieldset>
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
@@ -230,7 +241,7 @@
       <div class="footer">
         <div class="footer-logo-nav-menu">
           <div class="footer-logo">
-            <a><img src="/Branding/LionsStory-favicon-48x48.png" alt="Lion's Story Logo"></a>
+            <a><img src="/img/ls-branding-images/LionsStory-favicon-48x48.png" alt="Lion's Story Logo"></a>
           </div>
           <div class="footer-menu">
             <a href="">Services</a>
@@ -253,6 +264,8 @@
         </div>
 
         <div class="bottom-footer">
+          <p>&copy;Lion's Story 2019</p>
+          <p>Website created by coded by kids</p>
           <i class="fab fa-twitter"></i>
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-linkedin-in"></i>

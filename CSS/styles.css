@@ -4,36 +4,49 @@
 
 /*---Primary Colors---*/
 
-/* @midnight-blue-primary: #292663;
-@marigold-primary:  ; */
+/*
+@midnight-blue-primary: #292663;
+@marigold-primary:  ; 
+*/
 
 /*---Secondary Colors---*/ 
-/* @emerald-secondary: #14b069;
+/* 
+@emerald-secondary: #14b069;
 @magenta-secondary: #dd2c74;
 @sapphire-secondary: #428cf5;
 @burnt-orange-secondary: #ffffff;
-@nutmeg-secondary: #753626; */
+@nutmeg-secondary: #753626; 
+
+*/
 
 /*===Lion's Story Fonts===*/
 
-/* @title-font: 'Roboto', sans-serif;
-@body-font: 'Lato', sans-serif; */
+/* 
+@title-font: 'Roboto', sans-serif;
+@body-font: 'Lato', sans-serif;
+ */
 
 
 /*===Global Selectors===*/
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body { 
   font-family:'Lato', sans-serif ;
   padding:0;
   margin:0;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Lato', sans-serif ;
     color:#292663;
 }
 h2 {
-    padding:0;
     font-size:3.5em;
     margin:0 auto;
 }
@@ -51,7 +64,7 @@ i {
 .landing-container {
     min-height:100%;
     display:flex;
-    padding:2% 4% 4% 3%;
+    padding:2% 4% 4% 4%;
     background-color:#292663;
 }
 .landing-container h2 {
@@ -65,35 +78,37 @@ i {
     padding:1% 4% 4% 3%;
     background-color:#292663;
 }
-/*===Navigation Selectors===*/
 
+/*===Navigation Selectors===*/
 .navigation-bar {
+  height:18vh; 
   width:100%;      
   margin:0 auto;
-  display:grid;
-  grid-template-columns:25% 75%;
-  height:18vh;
+  display:flex;
+  justify-content: space-between;
+  padding-right:30px;
   background-color:#faab21;
   color:#292663;
   font-family: 'Roboto', sans-serif;
 }
 .nav-logo {
-    display:grid;
-    grid-template-columns: 100%;
-    padding-left:20px;
+  display:flex;
+  padding-left:20px;
 }
-
 .nav-logo img {
     padding:0 auto;
     height:18vh;
 }
-
 .nav-menu {
-    display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display:flex;
     align-content: center;
-    height:100%;    
-  }
+    justify-content:space-between;
+    align-items: center;
+    height:100%;
+    width:50%;
+    margin-right:3%;
+    background-color;
+}
 .nav-menu a {
     margin-right:1.5em;
     color:black;
@@ -110,7 +125,7 @@ i {
 .hero-landing {
     height:80vh;
     width:100vw;
-    background-image:  url("/stock-photos/hero-landing.jpeg");
+    background-image:  url("/img/stock-photos/hero-landing.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     text-align:center;
@@ -132,90 +147,108 @@ i {
 }
 
 /*===Services Selectors===*/
-
 .services-landing {
-    display:grid;
-    grid-template-rows:.5fr 2fr  fit-content(.2fr) 1fr;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     margin:0 auto;
     background-color: #faab21;
     text-align:center;
-    height:80vh;
 }
 .services-landing h2 {
     color:#292663;
-    padding-top:3%;
     font-size:3em;
     padding-bottom:3%;
-    
 }
-
 .about-services {
-    padding:0;
-    
+  padding:10 px 20px 30px 20px;
 }
-
-.services-landing div.learn-more {
-    /* height:10%; */
+.services-landing .learn-more {
+  padding:40px;
 }
-.services-block {
-    background-color:#ffffff;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-column-gap:3%;
+.services-deck {
     width:100%;
-    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:10px 20px 30px 20px;
+    background-color:#ffffff;
 }
-
-.service-container {
+.service-card {
     height:100%;
-    display:grid;
-    grid-template-rows: auto auto auto;
-    align-items:center;
-    /* background-color:yellow; */
-    justify-self: center;
+    width:30%;
+    border:black solid 2px;
 }
-
-.service-container img {
-
+.service-card img {
  width:100%;
  margin:0;
 }
-.service-container h2 {
+.service-card h2 {
     color:black
 }
 
+
+
 /*===About Selectors===*/
 
+
 .about-landing {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    grid-template-areas: " image image card card card card"
-                         " image image para para para para"
-                         " image image para para para para"
-                         " image image para para para para"
-                         ;
-    padding:0;
+    height:75vh;
+    display:flex;
+    flex-wrap:wrap;
     margin:0 auto;
-    background-color:  #ffffff;
-    height:80vh;
+    background-color: yellow;
 }
 .about-image {
-    height:100%;;
-    background-image: url("/stock-photos/AdobeStock_105654266_Preview.jpeg");
+    height:100%;
+    width:40%;
+    background-image: url("/img/stock-photos/AdobeStock_105654266_Preview.jpeg");
     /* /* background:no-repeat; */
     background-size:cover; 
     grid-area: image;
 }
-.about-card-container {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 80%;
+.clickable-container {
+  width:60%;
+  height:100%;
+  background-color:green;
+  padding:0;
+}
+.about-tab {
+  height:10%;
+  display:flex;
+  justify-content:flex-end;
+  background-color:darkblue;
+}
+.about-tab button {
+  width:10%;
+  background-color:white;
+  border:none;
+}
+.about-tab button:hover{background-color:orange;}
+
+button:focus{background-color:red;
+}
+
+a.button{
+  color:green;
+  text-decoration: none;
+}
+
+
+.about-deck{
+  height:90%;
+  background-color:white;
+  margin:0
+}
+.about-card {
+  display:none;
+  width:100%;
 }
 .about-card h2 {
     color:black;
     padding: 3px 10px 5px 18px;
-    grid-area: card;
+    margin:0;
     font-size:2em;
 }
 .about-text {
@@ -229,98 +262,84 @@ i {
 
 /*===Stories Selectors===*/
 .stories-landing {
-    display:grid;
-    grid-template-rows:.5fr 2fr 1fr 1fr;
+    height:75vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     margin:0 auto;
     background-color: #faab21;
     text-align:center;
-    height:80vh;
 }
-.services-landing h2 {
+.stories-landing h2 {
     color:#292663;
     font-size:2.5em;
     padding-top:3%;
     
 }
-
-.about-stories {
-    padding:0;
-    
-}
-
 .stories-landing div.learn-more {
-    height:10%;
 }
-.stories-block {
-    background-color:#ffffff;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-column-gap:3%;
+
+.stories-deck {
     width:100%;
-    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:10px 20px 30px 20px;
+    background-color:#ffffff;
 }
-
-.story-container {
+.story-card {
     height:100%;
-    display:grid;
-    grid-template-rows: auto auto auto;
-    align-items:center;
-    /* background-color:yellow; */
-    justify-self: center;
+    width:30%;
+    border:black solid 2px;
 }
-
-.story-container img {
-
+.story-card img {
  width:100%;
  margin:0;
 }
-.story-container h2 {
-    color:#292663;
-    padding-top:3%;
-    font-size:2em;
-    padding-bottom:3%;
-    
+.story-card h2 {
+    color:black
 }
+
+
 /*===Team Selectors===*/
 .team-landing {
-    display:grid;
-    grid-template-rows:.5fr 2fr 1fr 1fr;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     margin:0 auto;
     background-color: #faab21;
     text-align:center;
-    height:80vh;
 }
 .team-landing h2 {
     color:#292663;
-    
+    font-size:3em;
+    padding-bottom:3%;
 }
-
-.team-landing div.learn-more {
-    height:10%;
+.about-team {
+  
 }
-.team-block {
-    background-color:#ffffff;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-column-gap:3%;
+.team-landing .learn-more {
+  padding:40px;
+}
+.team-deck {
     width:100%;
-    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:10px 20px 30px 20px;
+    background-color:#ffffff;
 }
-
-.team-container {
+.team-card {
     height:100%;
-    display:grid;
-    grid-template-rows: auto auto auto;
-    align-items:center;
-    /* background-color:yellow; */
-    justify-self: center;
+    width:30%;
+    border:black solid 2px;
 }
-
-.team-container img {
+.team-card img {
  width:100%;
  margin:0;
 }
-.service-container h2 {
+.team-card h2 {
     color:black
 }
 
@@ -330,12 +349,11 @@ i {
 
 }
 .contact-landing {
-    display:grid;
-   grid-template-rows: fit-content(50px)  fit-content(300px);
+    display:flex;
+    flex-direction: column;
     padding:20px;
     margin:0 auto;
     background-color: #faab21 ;
-
     width:100%;
 }
 .contact-landing h2 {
@@ -456,9 +474,6 @@ i {
         font-size: 1em;
         text-decoration:none;
         font-weight:400;
-        justify-self:center;
-        /* border-right: #292663 solid 1px;
-        border-left: #292663 solid 1px; */
         padding: 15px 20px 15px 20px;
     }
     h2 {
@@ -479,9 +494,6 @@ i {
 
  /*===Services Selectors===*/
   .services-landing {
-    display:grid;
-    grid-template-rows:.7fr .8fr 1fr ;
-    margin:0 auto;
     background-color: #faab21;
     text-align:center;
     height:100%;
@@ -532,24 +544,11 @@ i {
 }
 
 .about-landing {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 1fr;
-    grid-template-rows: .4fr 1fr 1fr  ;
-    grid-template-areas: " image image image image aproach history"
-                         " image image image image para para"
-                         " image image image image para para"
-                        
-                         ;
                         
 }
 
  .services-landing {
-    display:grid;
-    grid-template-rows:.7fr .8fr 1fr ;
-    margin:0 auto;
-    background-color: #faab21;
-    text-align:center;
-    height:100%;
+
 }
 
 .about-services p {
@@ -685,21 +684,7 @@ i {
     font-size: .8em;
 }
 
-.about-landing {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 1fr;
-    grid-template-rows: .4fr 1fr 1fr  ;
-    grid-template-areas: " image image image image aproach history"
-                         " image image image image para para"
-                         " image image image image para para"
-                        
-                         ;
-                        
-}
-.learn-more{
-    justify-self: center;
-    margin:0 auto;
-} 
+
 
 }
 
@@ -844,21 +829,7 @@ i {
     font-size: .8em;
 }
 
-.about-landing {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 1fr;
-    grid-template-rows: .4fr 1fr 1fr  ;
-    grid-template-areas: " image image image image aproach history"
-                         " image image image image para para"
-                         " image image image image para para"
-                        
-                         ;
-                        
-}
-  .learn-more{
-   
- 
-} 
+
 
 
 
