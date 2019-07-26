@@ -63,7 +63,7 @@ p {
 .hero-about {
     height:70vh;
     /* width:100vw; */
-    background-image:  url("/stock-photos/AdobeStock_105892254_Preview.jpeg");
+    background-image:  url("img/stock-photos/AdobeStock_105892254_Preview.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     padding:0;   
