@@ -203,7 +203,7 @@ i {
 .about-image {
     height:100%;
     width:40%;
-    background-image: url("img/stock-photos/AdobeStock_105654266_Preview.jpeg");
+    background-image: url(../img/stock-photos/AdobeStock_105654266_Preview.jpeg);
     /* /* background:no-repeat; */
     background-size:cover; 
     grid-area: image;
