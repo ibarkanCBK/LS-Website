@@ -125,7 +125,7 @@ i {
 .hero-landing {
     height:80vh;
     width:100vw;
-    background-image:  url("../img/stock-photos/hero-landing.jpeg");
+    background-image:  url('../img/stock-photos/hero-landing.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
     text-align:center;
@@ -203,7 +203,7 @@ i {
 .about-image {
     height:100%;
     width:40%;
-    background-image: url("../img/stock-photos/AdobeStock_105654266_Preview.jpeg");
+    background-image: url('../img/stock-photos/AdobeStock_105654266_Preview.jpeg');
     /* /* background:no-repeat; */
     background-size:cover;
 }
