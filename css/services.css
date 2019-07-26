@@ -44,13 +44,12 @@ p {
 .hero-services {
     height:70vh;
     width:100vw;
-    background-image: url('..img/stock-photos/AdobeStock_199931209_Preview.jpeg');
+    background-image: url('../img/stock-photos/AdobeStock_199931209_Preview.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
     padding:0;   
 }
 .inner {
-  
     height:70vh;
     display:flex;
     align-items:center;
