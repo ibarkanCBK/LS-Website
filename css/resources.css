@@ -114,11 +114,8 @@ html {
 }
 .video-resources h2 {
     color:#292663;
-    font-size:3em;
-   
     text-align:center;
     flex-basis: auto;
-    height:5%;
 }
 .video-deck {
 
@@ -144,7 +141,8 @@ html {
 }
 /*===Articles-Books-Web Section=== */
 .art-pap-web-section {
-
+  width:100%;
+  justify-content: center;
 }
 /* ===Work with us=== */
 .work-with-us {
@@ -153,4 +151,6 @@ html {
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
+  align-items:center;
+  background-color: #428cf5;
 }

@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="../css/styles.css" type="text/css">
     <link rel='stylesheet' href='../css/resources.css' type='text/css'>
     <script src="https://kit.fontawesome.com/03070fdfa6.js"></script>
+    <script type="text/javascript" src="../js/scripts.js"></script>
     <!-- <link rel="stylesheet/less" type="text/css" href="CSS/styles.less" />
     <script src="less.js" type="text/javascript"></script> -->
 </head>
@@ -130,17 +131,41 @@
 <!-- Article/Paper/Web Section -->
   <div class="container">
     <div class="art-pap-web-section" id="">
-      <div class="article" id="">
+      <div class="resource-tab">
+        <button class="r-tablinks" onclick="openSection(event,'articles')">Articles</button>
+        <button class="r-tablinks" onclick="openSection(event, 'books')">Books</button>
+        <button class="r-tablinks" onclick="openSection(event, 'podcasts')">Podcasts</button>
+      </div>
+      <div class="resource-card" id="articles">
         <h2>Articles</h2>
+        <ul>
+          <li><a href="https://www.gse.upenn.edu/news/talking-children-after-racial-incidents">https://www.gse.upenn.edu/news/talking-children-after-racial-incidents</a></li>
+          <li><a href="">https://www.gse.upenn.edu/news/howard-stevensons-new-book-merges-powerful-storytelling-empirical-data</a></li>
+          <li><a href="">Hearing Lions</a></li>
+          <li><a href="">Engaging the Racial Elephant</a></li>
+          <li><a href="">Factsheet</a></li>
+        </ul>
+      </div>
+      <div class="resource-card" id="books">
+        <h2>Books</h2>
+        <h3>Promoting racial literacy in schools: Differences that make a difference.</h3>
+        <p>Stevenson, H. C. (2014).<br>New York: Teachers College Press</p>
+        <a href="https://www.gse.upenn.edu/news/howard-stevensons-new-book-merges-powerful-storytelling-Empirical-data">https://www.gse.upenn.edu/news/howard-stevensons-new-book-merges-powerful-storytelling-Empirical-data</a>
+        <h3>Black educational choice in a climate of school reform: Assessing the private and public alternatives to traditional
+        K-12 public schools</h3>
+        <p>Slaughter-Defoe, D. T., Stevenson, H. C., Arrington, E. G. & Johnson, D. J. (2012)<br>Praeger: ABC-Clio Publishers: Santa Barbara, CA</p>
+        <a href="https://www.abc-clio.com/ABC-CLIOCorporate/product.aspx?pc=A3403C">https://www.abc-clio.com/ABC-CLIOCorporate/product.aspx?pc=A3403C</a>
+      </div>
+      <div class="resource-card" id="podcasts">
+        <h2>Podcasts and Playlists</h2>
+        <h3>How Can We Mindfully Navigate Everyday Racism?</h3>
+        <p>Howard Stevenson</p>
+        <a href="">Click here to listen</a>
+        <h3>How Can We Mindfully Navigate Everyday Racism?</h3>
+        <p>Howard Stevenson</p>
+        <a href="">Click here to listen</a>
 
       </div>
-      <div class="papers" id="">
-        <h2>Books</h2>
-      </div>
-      <div class="web" id="">
-        <h2>Podcasts and Playlists</h2>
-      </div>
-    
     </div>
 
   </div>
