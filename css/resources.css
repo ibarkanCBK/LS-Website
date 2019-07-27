@@ -102,7 +102,7 @@ html {
 
 .video-resources {
     min-height: 80%;
-    height:60vh;
+    height:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
