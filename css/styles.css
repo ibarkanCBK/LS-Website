@@ -298,8 +298,9 @@ a.button{
 .story-card h2 {
     color:black
 }
-
-
+.learn-more-village{
+    width:100%;
+}
 /*===Team Selectors===*/
 .team-landing {
     height:100%;

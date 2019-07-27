@@ -53,8 +53,8 @@ p {
     height:70vh;
     display:flex;
     align-items:center;
-	justify-content: center;
-	flex-direction:column;
+	  justify-content: center;
+  	flex-direction:column;
 }
 .hero-services h1 {
 	background-color:rgba(161, 53, 96, 0.8);
