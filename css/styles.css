@@ -61,13 +61,13 @@ i {
 
 
 /*===Container Selectors===*/
-.landing-container {
-    min-height:100%;
+.container {
+    /* min-height:100%; */
     display:flex;
-    padding:2% 4% 4% 4%;
+    padding:2% 3% 5% 3%;
     background-color:#292663;
 }
-.landing-container h2 {
+.container h2 {
     font-size:2em;
     font-weight:bold;
     text-align:center;
@@ -416,7 +416,7 @@ a.button{
     padding-top:3%;
     grid-area:signup;
 }
-.container{
+.news-container{
     padding:0;
     text-align: center;
 }
