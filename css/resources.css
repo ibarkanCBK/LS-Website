@@ -118,7 +118,7 @@ html {
     flex-basis: auto;
 }
 .video-deck {
-
+    
     width:100%;
     display:flex;
     flex-wrap:wrap;
@@ -126,9 +126,8 @@ html {
 
 }
 .video-card {
-   
+    min-height:100%;
     width:33%;
-
     text-align:center;
     margin:0 auto;
 }
