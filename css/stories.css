@@ -1,31 +1,8 @@
-/* 
-hex: #292663
 
-rgb: 41 38 99
-hex: #faab21
-
-rgb: 250 171 33
-hex: #dd2c74
-
-rgb: 221 44 116
-hex: #14b069
-
-rgb: 20 176 105
-hex: #428cf5
-
-rgb: 66 140 245
-hex: #f04d24
-
-rgb: 240 77 36
-hex: #753626
-
-rgb: 117 54 38 */
-
-
-.hero-resources {
+.hero-stories {
     height:70vh;
     width:100vw;
-    background-image: url('../img/stock-photos/AdobeStock_104798909_Preview.jpeg');
+    background-image: url('../img/stock-photos/village.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
     padding:0;   
@@ -37,8 +14,8 @@ rgb: 117 54 38 */
 	justify-content: center;
 	flex-direction:column;
 }
-.hero-resources h1 {
-	background-color:rgba(66,140,245, 0.8);
+.hero-stories h1 {
+	background-color:rgba(240, 77,36, 0.8);
 	margin:0;
 	flex-direction:row;
     padding:2% 5% 2% 5%;
