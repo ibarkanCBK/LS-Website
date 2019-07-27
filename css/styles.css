@@ -187,12 +187,7 @@ i {
 .service-card h2 {
     color:black
 }
-
-
-
 /*===About Selectors===*/
-
-
 .about-landing {
     height:75vh;
     display:flex;
@@ -210,7 +205,6 @@ i {
 .clickable-container {
   width:60%;
   height:100%;
-  
   padding:0;
 }
 .about-tab {
