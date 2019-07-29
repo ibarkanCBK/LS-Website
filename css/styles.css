@@ -99,6 +99,7 @@ a, a:visited, a:hover, a:active{
 }
 .landing-container-contact {
     height:100%;
+    width:100%
     display:flex;
     padding:1% 4% 4% 3%;
     background-color:#fafdfe;
@@ -376,7 +377,7 @@ a.button {
     padding:20px;
     margin:0 auto;
 <<<<<<< HEAD
-    background-color: #fafdfe ;   
+    background-color: #fafdfe ;
 =======
     background-color: #fafdfe;
 >>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
