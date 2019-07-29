@@ -51,6 +51,8 @@ h2 {
     margin:0 auto;
 }
 p {
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 1.2em;
     line-height:2em;
 }
@@ -58,7 +60,30 @@ i {
     font-size:2.5em;
     margin-right:40px;
 }
-
+.more-info-button {
+    background-color: #faab21;
+    color: #292663;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5%;
+}
+.learn-more-button{
+    background-color: #faab21;
+    color: #292663;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 2%;
+}
+a, a:visited, a:hover, a:active{
+    color: inherit;
+    text-decoration: none;
+}
 
 /*===Container Selectors===*/
 .container {
@@ -131,6 +156,10 @@ i {
     text-align:center;
     padding:0;
 }
+#hero-text{
+    padding: 13%;
+    font-size: 50px;
+}
 .inner {
     background: rgba(250 ,171 ,33, 0.1);
     height:100%;
@@ -141,7 +170,7 @@ i {
 .hero-landing img {
 
     background-color: rgba(240,77,36,.92);
-    color:#faab21;
+    color:#fafdfe;
     width:25%;
     margin:0 auto;
 }
@@ -158,7 +187,7 @@ i {
 }
 .services-landing h2 {
     color:#292663;
-    padding-bottom:3%;
+    padding:2%;
 }
 .about-services {
     padding:10px 20px 30px 20px;
@@ -228,7 +257,7 @@ blockquote {
 button:focus{background-color:red;}
 
 a.button {
-  color:green;
+  color:#292663;
   text-decoration: none;
 }
 
@@ -253,7 +282,7 @@ a.button {
     font-size:.95em;
     height: 100%;
     grid-area:para;
-    padding:35px;
+    padding:15%;
 }
 
 /*===Stories Selectors===*/
@@ -268,7 +297,7 @@ a.button {
 }
 .stories-landing h2 {
     color:#292663;
-    padding-top:3%;
+    padding:2%;
 
 }
 .stories-landing div.learn-more {
@@ -285,12 +314,16 @@ a.button {
 }
 .story-card {
     height:100%;
+<<<<<<< HEAD
+    width:50%;
+=======
     width:30%;
     border:white solid 2px;
 }
 .story-card img {
     width:100%;
     margin:0;
+>>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 
 .learn-more-village{
@@ -307,7 +340,7 @@ a.button {
     text-align:center;
 }
 .team-landing h2 {
-    padding-bottom:3%;
+    padding:2%;
 }
 .about-team {
 }
@@ -323,10 +356,13 @@ a.button {
 .team-card {
     height:100%;
     width:30%;
+<<<<<<< HEAD
+=======
     border:white solid 2px;
+>>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 .team-card img {
-    width:100%;
+    width:75%;
     margin:0;
 }
 
@@ -339,7 +375,11 @@ a.button {
     flex-direction: column;
     padding:20px;
     margin:0 auto;
+<<<<<<< HEAD
+    background-color: #fafdfe ;   
+=======
     background-color: #fafdfe;
+>>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 .contact-landing h2 {
     margin:0;
