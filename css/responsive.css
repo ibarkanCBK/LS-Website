@@ -446,6 +446,10 @@
 
 
 @media all and (max-width: 480px) {
+    h1 {
+        font-size:1.5em !important;
+    }
+
      h2 {
         font-size:1em;
     }
@@ -455,11 +459,13 @@
     }
     .navigation-bar {
         height:10vh;
+        justify-content:center; 
+        width:100vw;
     }
       .nav-menu a {
     margin-right:1em;
     color:black;
-    font-size: .5em;
+    font-size: .3em;
     justify-self:center;
     padding: 5px 10px 5px 5px;
    }
@@ -503,6 +509,12 @@
 .about-tab {
     background-color:green;
     justify-content: flex-start;
+}
+.story-card {
+    width:100%;
+}
+.team-card {
+    width:100%;
 }
  }
 

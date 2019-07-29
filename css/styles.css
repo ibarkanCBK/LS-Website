@@ -82,7 +82,7 @@ i {
 /*===Navigation Selectors===*/
 .navigation-bar {
   height:18vh; 
-  width:100%;      
+  
   margin:0 auto;
   display:flex;
   justify-content: space-between;
@@ -252,7 +252,7 @@ a.button{
 
 /*===Stories Selectors===*/
 .stories-landing {
-    height:75vh;
+    height:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -269,6 +269,7 @@ a.button{
 }
 
 .stories-deck {
+    height:100%;
     width:100%;
     display:flex;
     flex-wrap:wrap;
@@ -309,6 +310,7 @@ a.button{
   padding:40px;
 }
 .team-deck {
+    height:100%;;
     width:100%;
     display:flex;
     flex-wrap:wrap;
