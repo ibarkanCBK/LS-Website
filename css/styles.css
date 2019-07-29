@@ -177,7 +177,7 @@ i {
 .service-card {
     height:100%;
     width:30%;
-    border:black solid 2px;
+    /* border:black solid 2px; */
 }
 .service-card img {
     width:100%;
@@ -365,7 +365,7 @@ a.button {
     display:flex;
     justify-content:space-between;
     align-content: center;
-    padding:2%;
+    padding:6%;
     /* height:100%;     */
     color:black;
     font-size: 1.5em;
@@ -382,6 +382,7 @@ a.button {
     text-align:center;
     display:flex;
     flex-direction:column;
+    justify-content: space-between;
     width:50%;
 }
 .newsletter-signup {
