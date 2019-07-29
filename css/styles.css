@@ -51,7 +51,7 @@ h2 {
     margin:0 auto;
 }
 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height:2em;
 }
 i {
@@ -156,6 +156,7 @@ i {
     text-align:center;
 }
 .services-landing h2 {
+    width:100%;
     color:#292663;
     padding-bottom:3%;
 }
@@ -256,7 +257,9 @@ a.button {
     grid-area:para;
     padding:35px;
 }
-
+.services-landing .learn-more {
+    width:100%;
+}
 /*===Stories Selectors===*/
 .stories-landing {
     height:100%;
