@@ -159,7 +159,7 @@ a, a:visited, a:hover, a:active{
 }
 #hero-text{
     padding: 13%;
-    font-size: 50px;
+    font-size: 75px;
 }
 .inner {
     background: rgba(250 ,171 ,33, 0.1);
@@ -253,9 +253,9 @@ blockquote {
     background-color:white;
     border:none;
 }
-.about-tab button:hover{background-color:orange;}
+.about-tab button:hover{background-color:#faab21;}
 
-button:focus{background-color:red;}
+button:focus{background-color:#faab21;}
 
 a.button {
   color:#292663;
@@ -315,16 +315,7 @@ a.button {
 }
 .story-card {
     height:100%;
-<<<<<<< HEAD
     width:50%;
-=======
-    width:30%;
-    border:white solid 2px;
-}
-.story-card img {
-    width:100%;
-    margin:0;
->>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 
 .learn-more-village{
@@ -343,6 +334,10 @@ a.button {
 .team-landing h2 {
     padding:2%;
 }
+.team-services > p{
+    padding-left: 0%;
+    padding-right: 0%;
+}
 .about-team {
 }
 .team-deck {
@@ -357,10 +352,6 @@ a.button {
 .team-card {
     height:100%;
     width:30%;
-<<<<<<< HEAD
-=======
-    border:white solid 2px;
->>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 .team-card img {
     width:75%;
@@ -376,11 +367,8 @@ a.button {
     flex-direction: column;
     padding:20px;
     margin:0 auto;
-<<<<<<< HEAD
     background-color: #fafdfe ;
-=======
-    background-color: #fafdfe;
->>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
+    background-color: #fafdfe ;
 }
 .contact-landing h2 {
     margin:0;
