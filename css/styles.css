@@ -303,11 +303,7 @@ a.button{
 .team-landing h2 {
     padding-bottom:3%;
 }
-.about-team {
-  
-}
-.team-landing .learn-more {
-  padding:40px;
+.about-team { 
 }
 .team-deck {
     height:100%;;
@@ -330,10 +326,6 @@ a.button{
 
 
 /*===Contact Selectors===*/
-.landing-container-contact {
-
-
-}
 .contact-landing {
     display:flex;
     flex-direction: column;
@@ -355,54 +347,46 @@ a.button{
 
 /*===footer Selectors===*/
 .container-footer {
- padding:1% 8% 8% 6%;
- background-color:#faab21;
+
+  padding:1% 8% 8% 6%;
+  background-color:#faab21;
 }
 .footer {
- margin:0 auto;
- display:grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr 1fr;
- grid-gap: 20px;
- grid-template-areas: 
-      "header header signup signup"
-      "header header signup signup"
-      "footer footer footer footer";
- height:45vh;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  /* height:100%; */
   background-color:#faab21;
   color:#292663;
   font-family: 'Roboto', sans-serif;
 }
 .footer-logo {
-    display:grid;
-    grid-template-columns:100%;
-    padding-left:20px;
+  padding-left:20px;
+  height:20vh;
+ 
 }
 .footer-logo img {
-    padding:30px auto 20px auto;
-    margin-bottom:10%;
-    margin-top:5%;
-    height:20vh;
+  height:20vh;
 }
 .footer-menu {
-    display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    align-content: center;
-    /* height:100%;     */
+  display:flex;
+  justify-content:space-between;
+  align-content: center;
+  padding:2%;
+  /* height:100%;     */
 }
 .footer-logo-nav-menu {
-
-    grid-area:header;
     text-align:center;
-    
-}
-.footer hr {
-     background-color:black;
+    display:flex;
+    flex-direction:column;
+    width:50%;
 }
 
 .newsletter-signup {
-    padding-top:3%;
-    grid-area:signup;
+    width:50%; 
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
 }
 .news-container{
     padding:0;
@@ -410,22 +394,26 @@ a.button{
 }
 
 .bottom-footer { 
-    grid-area: footer;
-    justify-self: end;
-    padding-right:15%;
-   
-
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:4% 2% 0 2%;
+  
 }
 .bottom-footer i { 
     margin-top:20px;
+ 
+}
+.footer-fav {
+    display: flex;
+}
+
+i {
+    font-size:2.5em;
+    
 }
 
 /*===Buttons===*/
-.learn-more{
-    justify-self: center;
-    margin:0 auto;
-    padding-top:2%;
-} 
 
 
 
