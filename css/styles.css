@@ -6,22 +6,22 @@
 
 /*
 @midnight-blue-primary: #292663;
-@marigold-primary:  ; 
+@marigold-primary: #faab21 ;
 */
 
-/*---Secondary Colors---*/ 
-/* 
+/*---Secondary Colors---*/
+/*
 @emerald-secondary: #14b069;
 @magenta-secondary: #dd2c74;
 @sapphire-secondary: #428cf5;
 @burnt-orange-secondary: #ffffff;
-@nutmeg-secondary: #753626; 
+@nutmeg-secondary: #753626;
 
 */
 
 /*===Lion's Story Fonts===*/
 
-/* 
+/*
 @title-font: 'Roboto', sans-serif;
 @body-font: 'Lato', sans-serif;
  */
@@ -37,7 +37,7 @@ html {
     box-sizing: inherit;
 }
 
-body { 
+body {
     font-family:'Lato', sans-serif ;
     padding:0;
     margin:0;
@@ -65,10 +65,10 @@ i {
     /* min-height:100%; */
     display:flex;
     padding:2% 3% 5% 3%;
-    background-color:#292663;
+    background-color:#fafdfe;
 }
 .container h2 {
-  
+
     font-weight:bold;
     text-align:center;
 }
@@ -76,18 +76,18 @@ i {
     height:100%;
     display:flex;
     padding:1% 4% 4% 3%;
-    background-color:#292663;
+    background-color:#fafdfe;
 }
 
 /*===Navigation Selectors===*/
 .navigation-bar {
-    height:18vh; 
-    
+    height:18vh;
+
     margin:0 auto;
     display:flex;
     justify-content: space-between;
     padding-right:30px;
-    background-color:#faab21;
+    background-color:#fafdfe;
     color:#292663;
     font-family: 'Roboto', sans-serif;
 }
@@ -111,7 +111,7 @@ i {
 }
 .nav-menu a {
     margin-right:1.5em;
-    color:black;
+    color:#292663;
     font-size: 1.5em;
     text-decoration:none;
     font-weight:400;
@@ -129,7 +129,7 @@ i {
     background-repeat: no-repeat;
     background-size:cover;
     text-align:center;
-    padding:0;   
+    padding:0;
 }
 .inner {
     background: rgba(250 ,171 ,33, 0.1);
@@ -139,7 +139,7 @@ i {
     align-content: center;
 }
 .hero-landing img {
-   
+
     background-color: rgba(240,77,36,.92);
     color:#faab21;
     width:25%;
@@ -153,7 +153,7 @@ i {
     flex-wrap:wrap;
     justify-content:center;
     margin:0 auto;
-    background-color: #faab21;
+    background-color: #fafdfe;
     text-align:center;
 }
 .services-landing h2 {
@@ -184,7 +184,14 @@ i {
     margin:0;
 }
 .service-card h2 {
-    color:black
+    color:white
+}
+
+blockquote {
+    background-color:#faab21;
+    color:#292663;
+    font-size:1.5em;
+    padding:5%;
 }
 /*===About Selectors===*/
 .about-landing {
@@ -192,7 +199,7 @@ i {
     display:flex;
     flex-wrap:wrap;
     margin:0 auto;
-    background-color: #faab21;
+    background-color: #fafdfe;
 }
 .about-image {
     height:100%;
@@ -236,7 +243,7 @@ a.button {
   width:100%;
 }
 .about-card h2 {
-    color:black;
+    color:white;
     padding: 3px 10px 5px 18px;
     margin:0;
 }
@@ -256,7 +263,7 @@ a.button {
     flex-wrap:wrap;
     justify-content:center;
     margin:0 auto;
-    background-color: #faab21;
+    background-color: #fafdfe;
     text-align:center;
 }
 .stories-landing h2 {
@@ -279,7 +286,7 @@ a.button {
 .story-card {
     height:100%;
     width:30%;
-    border:black solid 2px;
+    border:white solid 2px;
 }
 .story-card img {
     width:100%;
@@ -296,13 +303,13 @@ a.button {
     flex-wrap:wrap;
     justify-content:center;
     margin:0 auto;
-    background-color: #faab21;
+    background-color: #fafdfe;
     text-align:center;
 }
 .team-landing h2 {
     padding-bottom:3%;
 }
-.about-team { 
+.about-team {
 }
 .team-deck {
     height:100%;;
@@ -316,7 +323,7 @@ a.button {
 .team-card {
     height:100%;
     width:30%;
-    border:black solid 2px;
+    border:white solid 2px;
 }
 .team-card img {
     width:100%;
@@ -332,7 +339,7 @@ a.button {
     flex-direction: column;
     padding:20px;
     margin:0 auto;
-    background-color: #faab21 ;   
+    background-color: #fafdfe;
 }
 .contact-landing h2 {
     margin:0;
@@ -386,7 +393,7 @@ a.button {
     width:50%;
 }
 .newsletter-signup {
-    width:50%; 
+    width:50%;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -396,16 +403,16 @@ a.button {
     text-align: center;
 }
 
-.bottom-footer { 
+.bottom-footer {
     width:100%;
     display:flex;
     justify-content:space-between;
     padding:4% 2% 0 2%;
-  
+
 }
-.bottom-footer i { 
+.bottom-footer i {
     margin-top:20px;
- 
+
 }
 .footer-fav {
     display: flex;
@@ -417,31 +424,3 @@ i {
 }
 
 /*===Buttons===*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
