@@ -190,11 +190,18 @@
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
   p {
     font-size: 1.2em;
     line-height: 1.em;
+  }
+  .nav-logo img {
+    padding:0 auto;
+    height:15vh;
+}
+ .nav-menu a {
+    font-size: 0.8em;
   }
 }
 

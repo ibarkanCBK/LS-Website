@@ -73,8 +73,7 @@ i {
     text-align:center;
 }
 .landing-container-contact {
-    height:100%;
-    display:flex;
+     display:flex;
     padding:1% 4% 4% 3%;
     background-color:#292663;
 }
@@ -186,6 +185,12 @@ i {
 .service-card h2 {
     color:black
 }
+blockquote {
+    background-color:#faab21;
+    color:#292663;
+    font-size:1.5em;
+    padding:5%;
+}
 /*===About Selectors===*/
 .about-landing {
     height:75vh;
@@ -234,6 +239,9 @@ a.button {
 .about-card {
   display:none;
   width:100%;
+}
+#mission {
+    display:block;
 }
 .about-card h2 {
     color:black;
@@ -325,9 +333,12 @@ a.button {
 
 
 /*===Contact Selectors===*/
+.landing-container-contact {
+
+}
 .contact-landing {
     width:100%;
-    height:100%;
+    
     display:flex;
     flex-direction: column;
     padding:20px;
