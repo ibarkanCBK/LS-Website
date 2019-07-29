@@ -6,22 +6,22 @@
 
 /*
 @midnight-blue-primary: #292663;
-@marigold-primary:  ; 
+@marigold-primary: #faab21 ;
 */
 
-/*---Secondary Colors---*/ 
-/* 
+/*---Secondary Colors---*/
+/*
 @emerald-secondary: #14b069;
 @magenta-secondary: #dd2c74;
 @sapphire-secondary: #428cf5;
 @burnt-orange-secondary: #ffffff;
-@nutmeg-secondary: #753626; 
+@nutmeg-secondary: #753626;
 
 */
 
 /*===Lion's Story Fonts===*/
 
-/* 
+/*
 @title-font: 'Roboto', sans-serif;
 @body-font: 'Lato', sans-serif;
  */
@@ -37,7 +37,7 @@ html {
     box-sizing: inherit;
 }
 
-body { 
+body {
     font-family:'Lato', sans-serif ;
     padding:0;
     margin:0;
@@ -90,10 +90,10 @@ a, a:visited, a:hover, a:active{
     /* min-height:100%; */
     display:flex;
     padding:2% 3% 5% 3%;
-    background-color:#292663;
+    background-color:#fafdfe;
 }
 .container h2 {
-  
+
     font-weight:bold;
     text-align:center;
 }
@@ -101,13 +101,13 @@ a, a:visited, a:hover, a:active{
     height:100%;
     display:flex;
     padding:1% 4% 4% 3%;
-    background-color:#292663;
+    background-color:#fafdfe;
 }
 
 /*===Navigation Selectors===*/
 .navigation-bar {
-    height:18vh; 
-    
+    height:18vh;
+
     margin:0 auto;
     display:flex;
     justify-content: space-between;
@@ -136,7 +136,7 @@ a, a:visited, a:hover, a:active{
 }
 .nav-menu a {
     margin-right:1.5em;
-    color:black;
+    color:#292663;
     font-size: 1.5em;
     text-decoration:none;
     font-weight:400;
@@ -154,7 +154,7 @@ a, a:visited, a:hover, a:active{
     background-repeat: no-repeat;
     background-size:cover;
     text-align:center;
-    padding:0;   
+    padding:0;
 }
 #hero-text{
     padding: 13%;
@@ -168,7 +168,7 @@ a, a:visited, a:hover, a:active{
     align-content: center;
 }
 .hero-landing img {
-   
+
     background-color: rgba(240,77,36,.92);
     color:#fafdfe;
     width:25%;
@@ -213,7 +213,14 @@ a, a:visited, a:hover, a:active{
     margin:0;
 }
 .service-card h2 {
-    color:black
+    color:white
+}
+
+blockquote {
+    background-color:#faab21;
+    color:#292663;
+    font-size:1.5em;
+    padding:5%;
 }
 /*===About Selectors===*/
 .about-landing {
@@ -265,7 +272,7 @@ a.button {
   width:100%;
 }
 .about-card h2 {
-    color:black;
+    color:white;
     padding: 3px 10px 5px 18px;
     margin:0;
 }
@@ -307,7 +314,16 @@ a.button {
 }
 .story-card {
     height:100%;
+<<<<<<< HEAD
     width:50%;
+=======
+    width:30%;
+    border:white solid 2px;
+}
+.story-card img {
+    width:100%;
+    margin:0;
+>>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 
 .learn-more-village{
@@ -326,7 +342,7 @@ a.button {
 .team-landing h2 {
     padding:2%;
 }
-.about-team { 
+.about-team {
 }
 .team-deck {
     height:100%;;
@@ -340,6 +356,10 @@ a.button {
 .team-card {
     height:100%;
     width:30%;
+<<<<<<< HEAD
+=======
+    border:white solid 2px;
+>>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 .team-card img {
     width:75%;
@@ -355,7 +375,11 @@ a.button {
     flex-direction: column;
     padding:20px;
     margin:0 auto;
+<<<<<<< HEAD
     background-color: #fafdfe ;   
+=======
+    background-color: #fafdfe;
+>>>>>>> 26c7c2e6349fdfc88a270a7514d4656fdc78ba6b
 }
 .contact-landing h2 {
     margin:0;
@@ -409,7 +433,7 @@ a.button {
     width:50%;
 }
 .newsletter-signup {
-    width:50%; 
+    width:50%;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -419,16 +443,16 @@ a.button {
     text-align: center;
 }
 
-.bottom-footer { 
+.bottom-footer {
     width:100%;
     display:flex;
     justify-content:space-between;
     padding:4% 2% 0 2%;
-  
+
 }
-.bottom-footer i { 
+.bottom-footer i {
     margin-top:20px;
- 
+
 }
 .footer-fav {
     display: flex;
@@ -440,31 +464,3 @@ i {
 }
 
 /*===Buttons===*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
