@@ -190,11 +190,18 @@
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
   p {
     font-size: 1.2em;
     line-height: 1.em;
+  }
+  .nav-logo img {
+    padding:0 auto;
+    height:15vh;
+}
+ .nav-menu a {
+    font-size: 0.8em;
   }
 }
 
@@ -310,6 +317,13 @@ h1 {
   .hero-about {
     height:25vh;
   }
+  #our-approach-group img{
+    width:100vw;
+  }
+   #our-approach-group button{
+    width:100vw;
+  }
+
   /* ===Services Page===*/
   .hero-services {
     height:25vh;

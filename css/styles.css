@@ -201,6 +201,7 @@ a, a:visited, a:hover, a:active{
     text-align:center;
 }
 .services-landing h2 {
+    width:100%;
     color:#292663;
     padding:2%;
 }
@@ -231,6 +232,12 @@ a, a:visited, a:hover, a:active{
     color:white
 }
 
+blockquote {
+    background-color:#faab21;
+    color:#292663;
+    font-size:1.5em;
+    padding:5%;
+}
 blockquote {
     background-color:#faab21;
     color:#292663;
@@ -307,7 +314,9 @@ button:focus{background-color:#faab21;}
     grid-area:para;
     padding:15%;
 }
-
+.services-landing .learn-more {
+    width:100%;
+}
 /*===Stories Selectors===*/
 .stories-landing {
     height:100%;
@@ -364,7 +373,6 @@ button:focus{background-color:#faab21;}
 .about-team {
 }
 .team-deck {
-    height:100%;
     width:100%;
     display:flex;
     justify-content:space-between;
@@ -385,6 +393,9 @@ button:focus{background-color:#faab21;}
 
 
 /*===Contact Selectors===*/
+.landing-container-contact {
+
+}
 .contact-landing {
     height:50%;
     display:flex;
@@ -393,6 +404,7 @@ button:focus{background-color:#faab21;}
 }
 .contact-form-button{
     background-color: #faab21;
+    font-size: 20px;
     color: #292663;
     text-decoration: none;
     border: none;
