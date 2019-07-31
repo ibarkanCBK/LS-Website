@@ -21,7 +21,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: #292663;
-	background-color:#faab21;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -42,9 +42,7 @@ p {
 #proverb {
 	font-weight: 250;
 	font-style: italic;
-	
 }
-
 #our-approach-group {
 	display: flex;
 	justify-content: center;
@@ -83,16 +81,11 @@ p {
     margin:0 auto;
 }
 
-.racial-literacy [
-	position:fixed;
-]
-.team-large{
+.team-large {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 30px;
-	
+	padding-bottom: 30px;	
 }
-
 .team-large > img {
 	padding-left: 30px;
 	flex-shrink: 0;
@@ -102,7 +95,6 @@ p {
 	display: flex;
 	flex-direction: column;
 }
-
 .team-small{
 	display: flex;
 	flex-direction: row;
