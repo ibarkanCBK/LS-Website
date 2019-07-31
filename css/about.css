@@ -114,7 +114,7 @@ p {
 .trainer-group{
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 20px;
+	padding:10px 15px 20px 15px;
 }
 
 .trainer {

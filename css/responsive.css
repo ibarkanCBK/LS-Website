@@ -354,19 +354,20 @@ a, a:visited, a:hover, a:active{
     height:25vh;
   }
   #our-approach-group img{
-    width:100% !important;
-    height:100%;
+    width:90% !important;
+    height:90%;
      padding:10px 10px 0 10px;
   }
    #our-approach-group button{
      height:40px;
-    width:97.5% !important;
+    width:87.5% !important;
     margin:0 10px 0 10px;
   }
   .team-section {
     padding:2%;
   }
   .team-large {
+    flex-direction: column;
     text-align:center;
   }
   .team-large > img {
