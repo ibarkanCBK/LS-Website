@@ -131,10 +131,10 @@ a, a:visited, a:hover, a:active {
         display:flex;
         vertical-align: center;
         padding-left:20px;
-        padding-top: 4vh;
+        padding-top: 5vh;
     }
     .nav-logo img {
-        vertical-align: center;
+        vertical-align:center;
         height:7vh;
     }
     .nav-menu {
