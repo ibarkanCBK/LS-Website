@@ -25,7 +25,7 @@
 
   /*===Services Selectors===*/
   .services-landing {
-    background-color: #faab21;
+    background-color: #fafdfe;
     text-align: center;
     height: 100%;
   }
@@ -134,7 +134,7 @@
     display: grid;
     grid-template-rows: 0.5fr 2fr fit-content(0.2fr) 1fr;
     margin: 0 auto;
-    background-color: #faab21;
+    background-color: #fafdfe;
     text-align: center;
     height: 100%;
   }
