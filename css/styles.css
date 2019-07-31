@@ -130,10 +130,10 @@ a, a:visited, a:hover, a:active {
     .nav-logo {
         display:flex;
         padding-left:20px;
+        
     }
     .nav-logo img {
         padding:0 auto;
-        height:18vh;
     }
     .nav-menu {
         display:flex;
