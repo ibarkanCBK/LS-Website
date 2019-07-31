@@ -318,10 +318,10 @@ h1 {
     height:25vh;
   }
   #our-approach-group img{
-    width:100vw;
+    width:700px !important;
   }
    #our-approach-group button{
-    width:100vw;
+    width:700px !important;
   }
 
   /* ===Services Page===*/
