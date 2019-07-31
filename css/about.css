@@ -21,7 +21,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: #292663;
-	background-color:#faab21;
+	background-color:#fafdfe;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -31,7 +31,10 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 	color: #292663
 }
-
+h2 {
+    font-size:3em;
+    margin:0 auto;
+}
 p {
 	text-align: justify;
 	text-justify: inter-word;
@@ -56,6 +59,11 @@ p {
 	width: 900;
 }
 
+#our-approach-group > img {
+	width: 900;
+	height: 500;
+}
+
 .hero-about {
     height:70vh;
     /* width:100vw; */
@@ -73,7 +81,6 @@ p {
 	flex-direction:column;
 }
 .hero-about h1 {
-	background-color:rgb(20, 176, 105,.5);
 	margin:0;
 	flex-direction:row;
     padding:2% 5% 2% 5%;
@@ -94,6 +101,8 @@ p {
 }
 
 .team-large > img {
+	width: 200;
+	height: 200;
 	padding-left: 30px;
 	flex-shrink: 0;
 	align-self: center;
@@ -110,6 +119,8 @@ p {
 }
 
 .team-small > img {
+	width: 150;
+	height: 150;
 	padding-left: 30px;
 	flex-shrink: 0;
 	align-self: center;
@@ -128,5 +139,19 @@ p {
 .trainer {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	margin: auto;
+}
+
+.trainer > img {
+	width: 100;
+	height: 100;
+}
+
+.trainer > a{
+	display: flex;
+	padding: 1px !important;
+	width: 45px;
+	height: 45px;
+	align-items: center;
 }
