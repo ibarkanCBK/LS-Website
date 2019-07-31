@@ -26,8 +26,8 @@
     text-align: center;
 }
 .testimonials {
-    min-height: 80%;
-    height:30vh;
+
+    height:600px;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -35,7 +35,10 @@
     background-color: #14b069;
     text-align:center;
     padding-top:1%;
-
+    line-height:2em;
+}
+.testimonials h2 {
+    line-height:5em;
 }
 .video-stories {
     min-height: 80%;

@@ -10,7 +10,6 @@
     <script src="https://kit.fontawesome.com/03070fdfa6.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
   </head>
-  <body style="">
     <!-- Navigation Section -->
   <div class="navigation-bar">
     <div class="nav-logo">
@@ -26,7 +25,7 @@
 <!-- Hero Section-->
   <div class="hero-landing " id="hero-landing" >
     <div class="inner">
-      <img src="img/ls-branding-images/LionsStory-IGlogo.png">
+       <h1 id = 'hero-text' >Tell your story <br> Heal the village</h1>
     </div>
   </div>
 <!-- Services Section -->
@@ -38,26 +37,33 @@
         assessment. Our services are facilitated by clinicians, therapists, diversity & inclusion specialists, administrators
         and thought leaders in the field.</p>
       </div>
-      <div class="learn-more" id="">
-        <a href="" title="Button border gree" class="button btnFloat btnGreen">Learn more</a>
-      </div>
+        <a href="" title="Button border gree" class="button">Learn more</a>
 
       <div class="services-deck">
         <div class="service-card" id="">
-          <h2>Training</h2>
+          <h3>Training</h3>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>Trainings are the primary medium with which we introduce racial literacy and build skills in people and organizations.</p>
+              <a href="" class='button'>Click for More Info</a>
         </div>
         <div class="service-card" id="">
-          <h2>Consultation</h2>
+          <h3>Consultation</h3>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>We consult with organizations who have participated in our trainings (or are planning to do so) and are willing to commit stakeholders, time and resources in order to become more racially literate. </p>
+              <a href="" class='button'>Click for More Info</a>
         </div>
         <div class="service-card" id="">
-          <h2>Assessments</h2>
+          <h3>Assessments</h3>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>We assess an organization’s current racial literacy climate and skills as well as continue to assess their progress and development as well. </p>
+              <a href="" class='button'>Click for More Info</a>
         </div>
+      </div>
+      <div class="quote">
+       <blockquote> “In a society that has historically thrived from creating racially dehumanizing narratives
+        and practices, telling one’s racial story may not only be disruptive, but transformational”<br><br>
+        Dr. Howard C. Stevenson
+        </blockquote>
       </div>
     </div>
   </div>
@@ -65,43 +71,50 @@
   <!-- About Section -->
   <div class="about-landing" id="">
     <div class="about-image">
-  
+
     </div>
     <div class="clickable-container">
       <div class="about-tab">
         <button class="tablinks" onclick="openCard(event,'approach')">Approach</button>
-        <button class="tablinks" onclick="openCard(event, 'values')">Values</button>
+        <button class="tablinks" onclick="openCard(event, 'values')">Mission</button>
         <button class="tablinks" onclick="openCard(event, 'history')">History</button>
       </div>
       <div class="about-deck">
         <div class="about-card" id="values">
-          <h2>Values</h2>
+          <!--<h2>Mission</h2>-->
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. </p>
+              <a href="" class='button'>Click for More Info</a>
         </div>
         <div class="about-card" id="approach">
+<!--
           <h2>Approach</h2>
+</-->
           <p>Lion’s Story teaches culturally relevant, mindfulness, cognitive-behavioral, relationship-building strategies that are
           based on thirty years of racial socialization research by Dr. Howard C. Stevenson of the University of Pennsylvania.
-          
+
           Racial literacy is the ability to read, recast, and resolve racially stressful or identity-based encounters. This
           literacy is developed through supportive and repeated practice of healthy racial coping behaviors. The training of
           racial literacy involves the creation of humane spaces that provide affirming and protective feedback that also holds
           participants accountable as they learn to build their racial confidence, reduce their stress during racially charged
           moments, and negotiate racial conflicts to healthy conclusions.
-          
+
           How do we practice racial literacy? Our team of trainers facilitates mindfulness-infused activities for individuals and
           groups that encourage participants to “courageously notice” their thoughts, feelings, and body reactions as they
           navigate racial stories from (or about) their childhood, family, and professional dilemmas.</p>
+              <a href="" class='button'>Click for More Info</a>
         </div>
         <div class="about-card" id="history">
           <h2>History</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
+          <p>When Lion’s Story was originally founded in 2003 by Dr. Brian Peterson and Dr. Howard Stevenson, it was designed to be
+          the not-for-profit umbrella for Ase Academy -- a Saturday academic and cultural enrichment program that connects young
+          people in Philadelphia with Penn student mentors that has existed for over 20 years. After years of dormancy, Lion’s
+          Story was revived in 2018 in order to address the national (and global) need for racial literacy. Lion’s Story now
+          serves as a not-for--profit hub to promote three key village healing interests: racial literacy and health, life-span
+          educational success of Black and Brown youth and adults, and competent culturally responsive leadership.</p>
+          <a href="" class='button'>Click for More Info</a>
         </div>
       </div>
     </div>
@@ -112,133 +125,63 @@
     <h2>Hear From The Village</h2>
     <div class="stories-deck">
       <div class="story-card" id="">
-        <h2>testimonial #1</h2>
-        <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
+        <p>“I’ve been in a lot of racial equity trainings, and this was my favorite.  It invited vulnerability and courage in a way that deepened connection and understanding of the personal implications of systemic oppression.  For people with privilege (like me) it opened my heart and inspired me to take action to help dismantle these oppressive systems by simply beginning conversations about race.  It also forged connections and friendship with people who are wrestling with the implications of racism and want to take action.” <br>- Meghan Ryan</p>
       </div>
       <div class="story-card" id="">
-        <h2>testimonial #2</h2>
-        <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
-      </div>
-      <div class="story-card" id="">
-        <h2>testimonial #3</h2>
-        <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
+        <p>“My experience with Lion's Story helped me reflect on past and prepare for future racial encounters in a way that felt practical and productive. The Lion's Story framework around the relationship between stress, fear and physiological response makes a healthy coping strategy feel attainable and applicable to everyday encounters. I am glad I was able to fully participate in this training, which I think will be an invaluable resource for shifting mindset, developing personal coping strategies and, most importantly, widening the circle of understanding as we navigate this world.”</p>
       </div>
         <div class="learn-more-village" id="">
-      <a href="" title="Button border green" class="button btnFloat btnGreen">Learn more</a>
+      <a href="" title="Button border green" class="button btnFloat btnGreen">Read more</a>
     </div>
     </div>
     </div>
   </div>
-  
+
 
 </div>
 
   <!-- Team Section -->
   <div class="container">
     <div class="team-landing " id="#team-landing">
+      <div class = 'team-text'>
       <h2>Team</h2>
       <div class="team-services" id="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua.</p>
+        <p>Our day to day operations are led and managed by a team consisting of a Managing Partner, Partner (Learning and Evaluation) and a Program Assistant.
+       </p>
       </div>
-  
-      <div class="learn-more" id="">
-        <a href="" title="Button border gree" class="button btnFloat btnGreen">Learn more</a>
-      </div>
-  
+      <a href="" class="button">Learn more</a>
       <div class="team-deck">
         <div class="team-card" id="">
-          <h2>Team Member</h2>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+          <h3>Dr. Howard Stevenson</h3>
+          <h4>Founder</h4>
         </div>
         <div class="team-card" id="">
-          <h2>Team Member</h2>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
+          <h3>Charles B. Adams</h3>
+          <h4>Managing Partner</h4>
         </div>
         <div class="team-card" id="">
-          <h2>Team Member</h2>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
+          <h3>Morgan Reid</h3>
+          <h4>Program Assistant</h4>
         </div>
       </div>
     </div>
+   </div>
   </div>
 
 
-   
 
-    <div class="landing-container-contact">
-      <div class="contact-landing " id="">
-        <h2>Contact</h2>
-        
-          <form id="contact" action="" method="post">
-            <h4>Contact us to get in touch</h4>
-            <fieldset>
-              <input placeholder="Your name" type="text" tabindex="1" required >
-            </fieldset>
-            <fieldset>
-              <input placeholder="Your Email Address" type="email" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-              <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-              <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-            </fieldset>
-            <fieldset>
-            <input type="checkbox" name="vehicle1" value="Training">Training<br>
-            <input type="checkbox" name="vehicle2" value="Consulting"> Consulting<br>
-            <input type="checkbox" name="vehicle3" value="Assessments" checked>Assessments<br>
-            <input type="checkbox" name="vehicle3" value="General" checked>General Information<br>
-            </fieldset>
-            <fieldset>
-              <textarea placeholder="Type your Message Here...." tabindex="6" required></textarea>
-            </fieldset>
-            <fieldset>
-              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-          </form>
-      </div>
+
+    <div class="contact-landing">
+        <button class = 'contact-form-button' data-paperform-id="anhxipky" data-popup-button="1">Contact Us!</button><script>(function() { var script = document.createElement('script'); script.src = "https://paperform.co/__embed";document.body.appendChild(script); })()</script>
     </div>
-    
+
     <div class="container-footer">
       <div class="footer">
         <div class="footer-logo-nav-menu">
           <div class="footer-logo">
-            <a><img src="img/ls-branding-images/LionsStory-favicon-48x48.png" alt="Lion's Story Logo"></a>
           </div>
           <div class="footer-menu">
             <a href="">Services</a>
@@ -249,27 +192,27 @@
         </div>
 
         <div class="newsletter-signup">
-          <form action="/action_page.php">
+          <form action="">
             <div class="news-container">
               <h1>Sign Up</h1>
-            
               <label for="email"><b>Email</b></label>
               <input type="text" placeholder="Enter Email" name="email" required>
               <button type="submit" class="signupbtn">Sign Up</button>
             </div>
           </form>
         </div>
-
         <div class="bottom-footer">
           <p>&copy;Lion's Story 2019</p>
-          <p>Website created by coded by kids</p>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-linkedin-in"></i>
+          <p>Coded by Kids</p>
+          <div class="footer-fav">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
         </div>
       </div>
     </div>
-      
+
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   </body>
