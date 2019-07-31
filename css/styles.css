@@ -119,9 +119,9 @@ a, a:visited, a:hover, a:active {
 
     /*===Navigation Selectors===*/
     .navigation-bar {
-        height:18vh;
+        height:15vh;
 
-        margin:0 auto;
+        margin: auto;
         display:flex;
         justify-content: space-between;
         padding-right:30px;
@@ -131,11 +131,13 @@ a, a:visited, a:hover, a:active {
     }
     .nav-logo {
         display:flex;
+        vertical-align: center;
         padding-left:20px;
+        padding-top: 4vh;
     }
     .nav-logo img {
-        padding:0 auto;
-        height:18vh;
+        vertical-align: center;
+        height:7vh;
     }
     .nav-menu {
         display:flex;
@@ -351,6 +353,11 @@ button:focus{background-color:#faab21;}
 
 .learn-more-village{
     width:100%;
+}
+/*==Seperator Image==*/
+.seperator-image > img{
+    width: 100%;
+    height: auto;
 }
 /*===Team Selectors===*/
 .team-landing {
