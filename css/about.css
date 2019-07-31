@@ -36,10 +36,13 @@ h2 {
     margin:0 auto;
 }
 p {
-	text-align: justify;
+	text-align: center;
 	text-justify: inter-word;
-	padding-left: 30px;
-	padding-right: 30px;
+    padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+    font-size: 1.2em;
+    line-height:2em;
 }
 
 #proverb {
@@ -104,6 +107,7 @@ p {
 .team-large > p {
 	display: flex;
 	flex-direction: column;
+	text-align: justify;
 }
 .team-small{
 	display: flex;
@@ -121,6 +125,7 @@ p {
 .team-small > p {
 	display: flex;
 	flex-direction: column;
+	text-align: justify;
 }
 
 .trainer-group{

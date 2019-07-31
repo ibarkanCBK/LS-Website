@@ -118,14 +118,9 @@ a, a:visited, a:hover, a:active {
 
     /*===Navigation Selectors===*/
     .navigation-bar {
-<<<<<<< HEAD
         height:15vh;
 
         margin: auto;
-=======
-        height:18vh;
-        margin:0 auto;
->>>>>>> 748435228d0faca798570c7988d2ad3bdff4a351
         display:flex;
         justify-content: space-between;
         padding-right:30px;
@@ -266,6 +261,9 @@ blockquote {
     /* /* background:no-repeat; */
     background-size:cover;
 }
+.tablinks{
+    color: #292663;
+}
 .clickable-container {
     width:60%;
     height:100%;
@@ -361,7 +359,7 @@ button:focus{background-color:#faab21;}
 /*==Seperator Image==*/
 .seperator-image > img{
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 /*===Team Selectors===*/
 .team-landing {
