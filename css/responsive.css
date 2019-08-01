@@ -141,7 +141,7 @@
   .about-services p {
     padding: 0;
     margin: 0 auto;
-    height: ;
+    
   }
 
   .services-landing div.learn-more {
@@ -242,10 +242,17 @@
     font-size: 1.2em;
     line-height: 1.em;
   }
+<<<<<<< HEAD
   .nav-logo img {
     padding:0 auto;
     height: 5vh;
 }
+=======
+
+ .nav-menu a {
+    font-size: 0.8em;
+  }
+>>>>>>> 5a134cc4cd655958eb6b508cddef8277ac1637ad
 }
 
 @media all and (max-width: 768px) {
@@ -310,6 +317,13 @@ a, a:visited, a:hover, a:active{
     justify-self: center;
     padding: 20px 10px 5px 5px;
   }
+<<<<<<< HEAD
+=======
+  .nav-logo img {
+    padding: 0 auto;
+    height:3vh;
+  }
+>>>>>>> 5a134cc4cd655958eb6b508cddef8277ac1637ad
   .hero-landing {
     height: 25vh;
   }
@@ -486,7 +500,7 @@ a, a:visited, a:hover, a:active{
     margin-right: 1em;
     font-size: 0.5em;
     justify-self: center;
-    padding: 20px 10px 5px 5px;
+    padding: 20px 5px 5px 5px;
   }
   .nav-logo img {
     padding: 0 auto;
