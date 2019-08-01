@@ -9,19 +9,23 @@
     <link rel='stylesheet' href='../css/stories.css' type='text/css'>
     <link rel='stylesheet' href='../css/responsive.css' type='text/css'>
     <script src="https://kit.fontawesome.com/03070fdfa6.js"></script>
-    <!-- <link rel="stylesheet/less" type="text/css" href="CSS/styles.less" />
-    <script src="less.js" type="text/javascript"></script> -->
+    <script src="../js/scripts.js" type="text/javascript"></script> 
 </head>
   <body>
  <div class="navigation-bar">
     <div class="nav-logo">
       <a href="../index.html"><img src="../img/ls-branding-images/LionsStory-horizontal-350x50.png" alt="Lion's Story Logo"></a>
     </div>
-    <div class="nav-menu">
+    <div class="nav-menu" id='nav-menu-id'>
+      <a href='javascript:void(0);' class='burger' onclick="toggleBurger()">
+        <i class='fa fa-bars'></i>
+      </a>
+    <div class='nav-links'>
       <a href="about.html">About</a>
-       <a href="services.html">Services</a>
+      <a href="services.html">Services</a>
       <a href="stories.html">Stories</a>
       <a href="resources.html">Resources</a>
+    </div>
     </div>
   </div>
   <div class="hero-stories " id="hero-stories">

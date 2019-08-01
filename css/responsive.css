@@ -1,11 +1,8 @@
 @media all and (max-width: 1690px) {
   .nav-menu a {
-    margin-right: 1.5em;
-    color: black;
-    font-size: 1em;
+    font-size: 1.5em;
     text-decoration: none;
     font-weight: 400;
-    padding: 15px 20px 15px 20px;
   }
   h2 {
     font-size: 3em;
@@ -57,7 +54,6 @@
     display: grid;
     grid-template-rows: auto auto auto;
     align-items: center;
-    background-colo: ;
     justify-self: center;
   }
 
@@ -102,7 +98,6 @@
 @media all and (max-width: 1280px) {
   .nav-menu a {
     margin-right: 1.5em;
-    color: black;
     font-size: 1em;
     text-decoration: none;
     font-weight: 400;
@@ -182,6 +177,57 @@
     color: black;
     font-size: 0.8em;
   }
+.burger {
+  margin-left: 75%;
+  height: 70px;
+}
+.burger > i{
+  color: #292663;
+  height: 100%;
+  width: 100%;
+  font-size: 40px;
+}
+.burger >i:hover{
+  color: #faab21
+}
+.nav-links{
+  color: #292663;
+  background-color: #fafdfe;
+  text-align: left;
+}
+.nav-links > a{
+  color: #292663;
+}
+.nav-links > a:hover{
+  color: #faab21;
+}
+.navigation-bar{
+  margin: 0;
+}
+.nav-menu{
+  margin: 0;
+}
+ .nav-menu .nav-links {
+   display: none;
+   font-size: 3em;
+  }
+  .nav-menu .burger{
+    display: block;
+    float: right;
+    flex-shrink: 0;
+  }
+  .nav-menu.response{
+    margin: 0;
+    width: 100%;
+  }
+  .nav-menu.response .nav-links{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    width: 100%;
+    right:0;
+    top: 199;
+  }
 }
 
 @media all and (max-width: 980px) {
@@ -196,10 +242,10 @@
     font-size: 1.2em;
     line-height: 1.em;
   }
-
- .nav-menu a {
-    font-size: 0.8em;
-  }
+  .nav-logo img {
+    padding:0 auto;
+    height: 5vh;
+}
 }
 
 @media all and (max-width: 768px) {
@@ -247,6 +293,9 @@ a, a:visited, a:hover, a:active{
     color: inherit;
     text-decoration: none;
 }
+  .nav-menu.response .nav-links{
+    top: 125;
+  }
 
 /*===Nav Section=== */
   .navigation-bar {
@@ -256,15 +305,10 @@ a, a:visited, a:hover, a:active{
   }
   .nav-menu a {
     margin-right: 1.5em;
-    color: black;
 
     font-size: 0.75em;
     justify-self: center;
     padding: 20px 10px 5px 5px;
-  }
-  .nav-logo img {
-    padding: 0 auto;
-    height:3vh;
   }
   .hero-landing {
     height: 25vh;
@@ -277,13 +321,11 @@ a, a:visited, a:hover, a:active{
   }
   .service-card {
     width: 100%;
+    height: auto;
     padding-bottom: 15%;
   }
   .about-landing {
     height: 40vh;
-  }
-  .about-tab button {
-    font-size: 0.4em;
   }
   .about-image {
     height: 40%;
@@ -298,14 +340,17 @@ a, a:visited, a:hover, a:active{
     display: none;
   }
   .about-card {
-    height: 100%;
     width: 100%;
-    padding: 1%;
-    overflow: scroll;
+    height: 100%;
+    overflow: auto;
   }
   .about-tab {
     background-color:#faab21;
     justify-content: flex-start;
+  }
+  .about-deck{
+    height: 100%;
+    width: 100%;
   }
   .story-card {
     width: 100%;
@@ -439,7 +484,6 @@ a, a:visited, a:hover, a:active{
   }
   .nav-menu a {
     margin-right: 1em;
-    color: black;
     font-size: 0.5em;
     justify-self: center;
     padding: 20px 5px 5px 5px;

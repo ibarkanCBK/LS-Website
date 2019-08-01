@@ -26,3 +26,13 @@ function openSection(evt, contentName) {
     document.getElementById(contentName).style.display = "block";
     evt.currentTarget.className += "active";
 }
+
+function toggleBurger() {
+    var x = document.getElementById('nav-menu-id');
+    if (x.className === 'nav-menu') {
+        x.className += ' response';
+    }
+    else {
+        x.className = 'nav-menu'
+    }
+}

@@ -15,11 +15,16 @@
     <div class="nav-logo">
       <a href="index.html"><img src="img/ls-branding-images/LionsStory-horizontal-350x50.png" alt="Lion's Story Logo"></a>
     </div>
-    <div class="nav-menu">
+    <div class="nav-menu" id='nav-menu-id'>
+      <a href='javascript:void(0);' class='burger' onclick="toggleBurger()">
+        <i class='fa fa-bars'></i>
+      </a>
+    <div class='nav-links'>
       <a href="html/about.html">About</a>
       <a href="html/services.html">Services</a>
       <a href="html/stories.html">Stories</a>
       <a href="html/resources.html">Resources</a>
+    </div>
     </div>
   </div>
 <!-- Hero Section-->
@@ -37,26 +42,26 @@
         assessment. Our services are facilitated by clinicians, therapists, diversity & inclusion specialists, administrators
         and thought leaders in the field.</p>
       </div>
-        <a href="" title="Button border gree" class="button">Learn more</a>
+        <a href="html/services.html" title="Button border gree" class="button">Learn more</a>
 
       <div class="services-deck">
         <div class="service-card" id="">
           <h3>Training</h3>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>Trainings are the primary medium with which we introduce racial literacy and build skills in people and organizations.</p>
-              <a href="" class='button'>Click for More Info</a>
+              <a href="html/services.html" class='button'>Click for More Info</a>
         </div>
         <div class="service-card" id="">
           <h3>Consultation</h3>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>We consult with organizations who have participated in our trainings (or are planning to do so) and are willing to commit stakeholders, time and resources in order to become more racially literate. </p>
-              <a href="" class='button'>Click for More Info</a>
+              <a href="html/services.html" class='button'>Click for More Info</a>
         </div>
         <div class="service-card" id="">
           <h3>Assessments</h3>
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <p>We assess an organization’s current racial literacy climate and skills as well as continue to assess their progress and development as well. </p>
-              <a href="" class='button'>Click for More Info</a>
+              <a href="html/services.html" class='button'>Click for More Info</a>
         </div>
       </div>
       <div class="quote">
@@ -82,11 +87,10 @@
       <div class="about-deck">
         <div class="about-card" id="values">
           <!--<h2>Mission</h2>-->
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. </p>
+          <p>The mission of Lion’s Story is to prepare individuals and organizations to navigate and resolve racially charged situations. Racial interactions in our society have become so contentious, that individuals and organizations are ill-equipped and helpless to communicate or problem-solve the smallest of identity-based conflicts. Through our work, youth, adults and professionals become more confident. They engage in (rather than avoid) racial encounters ,and in doing so, develop interpersonal skills that will not only lead to racial conflict resolution, but also improve their emotional, psychological and overall well being. As a result, organizations will be better prepared to meet their objectives and ethical obligations to the people and communities they serve.</p>
+<!--
               <a href="" class='button'>Click for More Info</a>
+</-->
         </div>
         <div class="about-card" id="approach">
 <!--
@@ -104,7 +108,7 @@
           How do we practice racial literacy? Our team of trainers facilitates mindfulness-infused activities for individuals and
           groups that encourage participants to “courageously notice” their thoughts, feelings, and body reactions as they
           navigate racial stories from (or about) their childhood, family, and professional dilemmas.</p>
-              <a href="" class='button'>Click for More Info</a>
+              <a href="html/about.html" class='button'>Click for More Info</a>
         </div>
         <div class="about-card" id="history">
           <h2>History</h2>
@@ -114,7 +118,7 @@
           Story was revived in 2018 in order to address the national (and global) need for racial literacy. Lion’s Story now
           serves as a not-for--profit hub to promote three key village healing interests: racial literacy and health, life-span
           educational success of Black and Brown youth and adults, and competent culturally responsive leadership.</p>
-          <a href="" class='button'>Click for More Info</a>
+          <a href="html/about.html" class='button'>Click for More Info</a>
         </div>
       </div>
     </div>
@@ -131,7 +135,7 @@
         <p>“My experience with Lion's Story helped me reflect on past and prepare for future racial encounters in a way that felt practical and productive. The Lion's Story framework around the relationship between stress, fear and physiological response makes a healthy coping strategy feel attainable and applicable to everyday encounters. I am glad I was able to fully participate in this training, which I think will be an invaluable resource for shifting mindset, developing personal coping strategies and, most importantly, widening the circle of understanding as we navigate this world.”</p>
       </div>
         <div class="learn-more-village" id="">
-      <a href="" title="Button border green" class="button btnFloat btnGreen">Read more</a>
+      <a href="html/stories.html" title="Button border green" class="button btnFloat btnGreen">Read more</a>
     </div>
     </div>
     </div>
@@ -158,16 +162,19 @@
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <h3>Dr. Howard Stevenson</h3>
           <h4>Founder</h4>
+          <a href="html/stevenson.html" class='button'>View full bio</a>
         </div>
         <div class="team-card" id="">
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
           <h3>Charles B. Adams</h3>
           <h4>Managing Partner</h4>
+          <a href="html/adams.html" class='button'>View full bio</a>
         </div>
         <div class="team-card" id="">
           <img src="img/stock-photos/AdobeStock_104882135_Preview.jpeg" class="">
-          <h3>Morgan Reid</h3>
+          <h3>Shamm Petros</h3>
           <h4>Program Assistant</h4>
+          <a href="html/petros.html" class='button'>View full bio</a>
         </div>
       </div>
     </div>
@@ -187,10 +194,10 @@
           <div class="footer-logo">
           </div>
           <div class="footer-menu">
-            <a href="">Services</a>
-            <a href="">About</a>
-            <a href="">Stories</a>
-            <a href="">Resources</a>
+            <a href="html/services.html">Services</a>
+            <a href="html/about.html">About</a>
+            <a href="html/stories.html">Stories</a>
+            <a href="html/resources.html">Resources</a>
           </div>
         </div>
 
