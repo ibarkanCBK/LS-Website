@@ -151,10 +151,6 @@ a, a:visited, a:hover, a:active {
         flex-grow: 2;
         height:100%;
         width:50%;
-<<<<<<< HEAD
-=======
-        margin-right:3%;
->>>>>>> 5a134cc4cd655958eb6b508cddef8277ac1637ad
     }
     .nav-menu a {
         margin-right:1em;
@@ -215,7 +211,12 @@ a, a:visited, a:hover, a:active {
     padding:2%;
 }
 .about-services {
-    padding:10px 20px 30px 20px;
+    padding:10px 20px 20px 20px;
+}
+.about-services > p{
+    padding: 0;
+    margin-bottom: 4% !important;
+    text-align: justify;
 }
 .services-landing .learn-more {
     padding:40px;
@@ -240,18 +241,24 @@ a, a:visited, a:hover, a:active {
 .service-card h2 {
     color:white
 }
+.service-card > p {
+    margin-bottom: 9%;
+}
 
 blockquote {
     background-color:#faab21;
     color:#292663;
     font-size:1.5em;
-    padding:5%;
-}
-blockquote {
-    background-color:#faab21;
+    width: 100%;
     color:#292663;
     font-size:1.5em;
-    padding:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3%;
 }
 /*===About Selectors===*/
 .about-landing {
@@ -313,10 +320,8 @@ button:focus{background-color:#faab21;}
 #approach{
     display: block;
 }
-.about-card h2 {
-    color:white;
-    padding: 3px 10px 5px 18px;
-    margin:0;
+.about-card h1 {
+    margin-left: 3%;
 }
 .about-text {
 /* justify-self: center; */
@@ -367,7 +372,7 @@ button:focus{background-color:#faab21;}
 /*==Seperator Image==*/
 .seperator-image > img{
     width: 100%;
-    height:auto;
+    height: 50%;
 }
 /*===Team Selectors===*/
 .team-landing {
@@ -414,7 +419,7 @@ button:focus{background-color:#faab21;}
 
 }
 .contact-landing {
-    padding:10%;
+    padding-bottom:3%;
     display:flex;
     flex-direction: column;
     background-color: #fafdfe ;
