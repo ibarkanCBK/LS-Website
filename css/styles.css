@@ -119,7 +119,6 @@ a, a:visited, a:hover, a:active {
     /*===Navigation Selectors===*/
     .navigation-bar {
         height:15vh;
-
         margin: auto;
         display:flex;
         justify-content: space-between;
@@ -146,7 +145,6 @@ a, a:visited, a:hover, a:active {
         height:100%;
         width:50%;
         margin-right:3%;
-        background-color;
     }
     .nav-menu a {
         margin-right:1.5em;
