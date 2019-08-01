@@ -165,34 +165,34 @@ a, a:visited, a:hover, a:active {
     }
 
     /*===Hero Selectors===*/
-    .hero-landing::before{
-    }
-    .hero-landing {
-        height:80vh;
-        width:100vw;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-image: url('../img/stock-photos/LS-home-page.jpeg');
-        opacity: 0.7;
-        z-index: -999;
-        background-blend-mode: saturation;
-        text-align:center;
-        padding:0;
-    }
-    #hero-text{
-        margin: 0;
-        display: flex;
-        font-size: 6vh;
+.hero-landing {
+    height:80vh;
+    width:100vw;
+    padding:0;
+}
+#hero-landing::before{
+    background-image: url(../img/stock-photos/LS-home-page.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+#hero-text{
+    margin: 0;
+    display: flex;
+    font-size: 6vh;
 }
 .inner {
     display: flex;
-    opacity: 1;
     flex-direction: column;
-    position: relative;
-    top: 10%;
-    padding-left: 15%;
-    width: 100%;
-    height: 100%;
+    align-content: center;
 }
 .inner > p {
     margin: 1%;
@@ -204,13 +204,6 @@ a, a:visited, a:hover, a:active {
 .inner > .button{
     margin: 1%;
     width: 10%;
-}
-.hero-landing img {
-
-    background-color: rgba(240,77,36,.92);
-    color:#fafdfe;
-    width:25%;
-    margin:0 auto;
 }
 
 /*===Services Selectors===*/
