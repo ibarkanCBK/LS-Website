@@ -184,26 +184,23 @@ a, a:visited, a:hover, a:active {
     z-index:-1;
     opacity: 0.4;
 }
-#hero-text{
-    margin: 0;
-    display: flex;
-    font-size: 6vh;
-}
 .inner {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 3%;
 }
 .inner > p {
-    margin: 1%;
-    width: 70%;
+    width: 35%;
     padding-left: 0;
     padding-right: 0;
     color:#292663;
 }
-.inner > .button{
-    margin: 1%;
-    width: 10%;
+#hero-text{
+    margin: 0;
+    display: flex;
+    font-size: 6vh;
 }
 
 /*===Services Selectors===*/
