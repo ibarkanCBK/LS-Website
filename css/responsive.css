@@ -146,7 +146,7 @@
   .about-services p {
     padding: 0;
     margin: 0 auto;
-    height: ;
+    
   }
 
   .services-landing div.learn-more {
@@ -196,10 +196,7 @@
     font-size: 1.2em;
     line-height: 1.em;
   }
-  .nav-logo img {
-    padding:0 auto;
-    height:15vh;
-}
+
  .nav-menu a {
     font-size: 0.8em;
   }
@@ -267,7 +264,7 @@ a, a:visited, a:hover, a:active{
   }
   .nav-logo img {
     padding: 0 auto;
-    height: 10vh;
+    height:3vh;
   }
   .hero-landing {
     height: 25vh;
@@ -445,11 +442,11 @@ a, a:visited, a:hover, a:active{
     color: black;
     font-size: 0.5em;
     justify-self: center;
-    padding: 20px 10px 5px 5px;
+    padding: 20px 5px 5px 5px;
   }
   .nav-logo img {
     padding: 0 auto;
-    height: 10vh;
+    height: 3vh;
   }
 
 }
