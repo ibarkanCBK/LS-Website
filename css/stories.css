@@ -8,7 +8,7 @@ body {
     background-image: url('../img/stock-photos/village.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
-    padding:0;   
+    padding:0;
 }
 .inner {
     height:70vh;
@@ -18,8 +18,8 @@ body {
 	flex-direction:column;
 }
 .hero-stories h1 {
-	margin:0;
-	flex-direction:row;
+  	margin:0;
+  	flex-direction:row;
     padding:2% 5% 2% 5%;
     font-size:4.5em;
     font-weight:bold;
@@ -28,8 +28,7 @@ body {
     text-align: center;
 }
 .testimonials {
-
-    height:600px;
+    height:auto;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -37,9 +36,19 @@ body {
     text-align:center;
     padding-top:1%;
     line-height:2em;
+    flex-direction:column;
 }
 .testimonials h2 {
-    line-height:5em;
+    font-size:3em;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.testimonials h3 {
+  font-size:1.5em;
+  margin-bottom: auto;
+}
+.testimonials h4 {
+  font-size:1.0em;
 }
 .video-stories {
     min-height: 80%;
@@ -50,5 +59,15 @@ body {
     margin:0 auto;
     text-align:center;
     padding-top:1%;
+}
+.contributor-url {
+  padding: 25px;
+  padding-bottom: 55px;
+  text-decoration: none;
+  color: #faab21;
+  font-size: 1.5em;
+}
 
+#poem {
+  line-height: 15px;
 }
