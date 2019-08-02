@@ -26,15 +26,22 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 14pt;
 	text-align: center;
 	color: #292663
 }
+
 h2 {
     font-size:3em;
     margin:0 auto;
+		padding-bottom:15px;
 }
+
+h3 {
+	padding:25px;
+}
+
 p {
 	text-align: center;
 	text-justify: inter-word;
@@ -101,16 +108,39 @@ p {
 }
 
 .team-large > img {
-	width: 200;
-	height: 200;
+	width: 400;
+	height: 400;
 	padding-left: 30px;
 	flex-shrink: 0;
 	align-self: center;
 }
+
 .team-large > p {
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
+}
+
+.team-bio > img {
+	width: 400;
+	height: 400;
+	align-self: left;
+	align-content: center;
+	justify-content: center;
+}
+
+.team-bio {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.team-bio > p {
+	text-align: justify;
+}
+
+.team-bio > h2 {
+	 text-align:left;
 }
 
 .bio-page > img {
@@ -127,7 +157,7 @@ p {
 	text-align: justify;
 }
 
-.team-small{
+.team-small {
 	display: flex;
 	flex-direction: row;
 	padding-bottom: 30px;
@@ -144,6 +174,59 @@ p {
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
+}
+
+.team-about-card-large {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height:100%;
+  width:30%;
+  margin-top: 2%;
+	padding-left: 45px;
+}
+
+.team-about-card-large h4 {
+	margin:0px;
+	font-weight:lighter;
+}
+
+.team-about-card-large h3 {
+	margin:0px;
+	font-weight:lighter !important;
+}
+
+.team-about-card-large > img{
+  height: 200px;
+  width: 200px;
+	align-self: center;
+}
+
+.team-about-card-small {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height:100%;
+  width:100%;
+  margin-top: 2%;
+	padding-left: 45px;
+}
+
+.team-about-card-small h4 {
+	margin:0px;
+	font-weight:lighter;
+	font-size: .9em;
+}
+
+.team-about-card-small h3 {
+	margin:0px;
+	font-size:1.0em;
+}
+
+.team-about-card-small > img{
+  height: 150px;
+  width: 150px;
+	align-self: center;
 }
 
 .trainer-group{

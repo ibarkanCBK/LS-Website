@@ -114,7 +114,7 @@
     height: 60vh;
     width: 100vw;
   }
-  
+
   a {
     font-size: 1em;
   }
@@ -136,7 +136,7 @@
   .about-services p {
     padding: 0;
     margin: 0 auto;
-    
+
   }
 
   .services-landing div.learn-more {
@@ -273,7 +273,7 @@ h1 {
     padding-right: 10px;
     margin: 2%;
   }
-.button {
+  .button {
     font-size:15px;
     text-decoration: none;
     border: none;
@@ -339,6 +339,35 @@ a, a:visited, a:hover, a:active{
   }
   .team-card {
     width: 100%;
+    height: auto;
+    padding-bottom: 15%;
+  }
+  .team-card > h4 {
+    margin-top:0px;
+  }
+  .team-about-card-large {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    padding-left: 0px;
+  }
+  .team-about-card-large > h4 {
+    margin:0px;
+  }
+  .team-about-card-large > h3 {
+    margin:0px;
+  }
+  .team-about-card-small {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    padding-left: 0px;
+  }
+  .team-about-card-small > h4 {
+    margin:0px;
+  }
+  .team-about-card-small > h3 {
+    margin:0px;
   }
   .footer-logo-nav-menu {
     width:100%;
@@ -365,12 +394,12 @@ a, a:visited, a:hover, a:active{
     padding:0;
   }
   .footer-menu a {
-  
+
     color: black;
     font-size: 0.75em;
     justify-self: center;
     padding: 20px 10px 5px 5px;
-  
+
   }
 
   /* ===About Page===*/
@@ -420,7 +449,7 @@ a, a:visited, a:hover, a:active{
   }
   .trainer > img {
     width:100%;
-  
+
   }
   /* ===Services Page===*/
   .hero-services {
@@ -444,7 +473,7 @@ a, a:visited, a:hover, a:active{
   .video-card {
     width:100%;
   }
-  
+
 }
 
 @media all and (max-width: 480px) {
@@ -476,15 +505,3 @@ a, a:visited, a:hover, a:active{
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

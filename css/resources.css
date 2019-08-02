@@ -1,4 +1,4 @@
-/* 
+/*
 hex: #292663
 
 rgb: 41 38 99
@@ -26,7 +26,7 @@ html {
 }
 
 .button{
-  padding-top: 10px; 
+  padding-top: 10px;
   padding-bottom: 10px;
   margin-right: 20px;
 }
@@ -34,7 +34,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }.container {
-  background-color:white;
+  background-color:#fafdfe;
 }
 
 .hero-resources {
@@ -42,7 +42,7 @@ html {
     background-image: url('../img/stock-photos/AdobeStock_104798909_Preview.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
-    padding:0;   
+    padding:0;
 }
 .inner {
     height:70vh;
@@ -76,14 +76,14 @@ html {
 /*===Dr-Stevenson Section=== */
 
 .container {
-  
+
 }
 .dr-stevenson {
     display:flex;
     flex-wrap:wrap;
     margin:0 auto;
 }
-.dr-stevenson-img { 
+.dr-stevenson-img {
 
      min-width:40%;
     /* background-image: url('../img/stock-photos/Howard-updated.jpg'); */
@@ -94,7 +94,7 @@ html {
   padding:1% 3% 4% 3%;
   width:60%;
 
-  
+
 }
 
 
