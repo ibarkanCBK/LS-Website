@@ -121,7 +121,7 @@ a, a:visited, a:hover, a:active {
 
     /*===Navigation Selectors===*/
     .navigation-bar {
-        height:15vh;
+        height:10vh;
         margin: auto;
         display:flex;
         justify-content: space-between;
@@ -134,14 +134,15 @@ a, a:visited, a:hover, a:active {
         display: none;
     }
     .nav-logo {
-        display:flex;
-        vertical-align: center;
+        display: flex;
         padding-left:20px;
-        padding-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
     }
     .nav-logo img {
-        vertical-align:center;
-        height:7vh;
+        vertical-align: middle;
+        height:5vh;
+        margin-top: 1%;
     }
     .nav-menu {
         display:flex;
@@ -186,11 +187,11 @@ a, a:visited, a:hover, a:active {
 .inner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color:rgba(232, 224, 215, 0.6);
     position: relative;
-    top: 35%;
+    top: 35% !important;
     width: 50%;
+    height: auto !important;
     padding-left: 1%;
     margin-left: 3%;
 }
@@ -203,7 +204,7 @@ a, a:visited, a:hover, a:active {
     margin: 0;
     width: auto;
     display: flex;
-    font-size: 5vh;
+    font-size: 300%;
 }
 
 /*===Services Selectors===*/
