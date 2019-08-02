@@ -60,7 +60,6 @@ h1,h2,h3,h4,h5,h6 {
     width:65%;
     margin:0 auto;
     text-align: center;
-
 }
 
 .services-header {
@@ -71,8 +70,7 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-
-  text-align: center;
+  text-align: justify;
 }
 
 .services-header > button {
@@ -94,13 +92,11 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom: 15px;
   padding-top:45px;
 }
-
 .services > ul{
   display: flex;
   flex-flow: column;
   align-self: flex-start;
 }
-
 .services > button {
   width: 100;
   margin-left: 30px;
@@ -108,39 +104,43 @@ h1,h2,h3,h4,h5,h6 {
 .assessments {
   padding-top:2%;
   padding-bottom: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .consulting {
   padding-top:2%;
   padding-bottom: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
  .training-li {
    margin: 1%;
    margin-left: 8%;
-   font-size: 2vh;
- }
- .trainings {
-   padding-right: 45px;
-   padding-left:45px;
+   font-size: 1.0em;
+   text-align: justify;
  }
  .trainings h2 {
    padding-bottom: 15px;
  }
- .consulting {
-   padding-right: 45px;
-   padding-left:45px;
+ .trainings p {
+   padding-bottom:15px;
+   padding-right:5%;
+   padding-left:5%;
  }
  .consulting h2 {
    padding-bottom: 15px;
  }
- .assessements {
+ .consulting p {
+   padding-bottom:15px;
+   padding-right:5%;
+   padding-left:5%;
+ }
+
+ /* .assessements {
    padding-right: 45px;
    padding-left:45px;
    padding-bottom:20px
- }
+ } */
  .assessments h2 {
    padding-bottom: 15px;
  }
