@@ -239,7 +239,7 @@ a, a:visited, a:hover, a:active {
     margin:0;
 }
 .service-card h2 {
-    color:white
+    color:#fafdfe
 }
 .service-card > p {
     margin-bottom: 9%;
@@ -292,7 +292,7 @@ blockquote {
 .about-tab button {
     width:100%;
     font-size: 25px;
-    background-color:white;
+    background-color:#fafdfe;
     border:none;
 }
 .about-tab button:hover{background-color:#faab21;}
@@ -310,8 +310,8 @@ button:focus{background-color:#faab21;}
 
 .about-deck {
   height:90%;
-  background-color:white;
-  margin:0
+  background-color:#fafdfe;
+  margin:0;
 }
 .about-card {
   display:none;
@@ -398,8 +398,9 @@ button:focus{background-color:#faab21;}
     width:100%;
     display:flex;
     justify-content:space-between;
+    flex-wrap: wrap;
     padding:10px 20px 30px 20px;
-    background-color:#ffffff;
+    background-color:#fafdfe;
 }
 .team-card {
     display: flex;
@@ -412,7 +413,6 @@ button:focus{background-color:#faab21;}
 .team-card img {
     width:100%;
 }
-
 
 /*===Contact Selectors===*/
 .landing-container-contact {
