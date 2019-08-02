@@ -184,7 +184,15 @@ a, a:visited, a:hover, a:active {
     min-height: 100%;
     z-index:-1;
 }
-.inner {
+.inner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35% !important;
+    width: 100%;
+    height: auto !important;
+}
+.inner-landing {
     display: flex;
     flex-direction: column;
     background-color:rgba(232, 224, 215, 0.6);
@@ -471,8 +479,8 @@ button:focus{background-color:#faab21;}
     flex-wrap:wrap;
     justify-content:center;
     /* height:100%; */
-    background-color:#faab21;
-    color:#292663;
+    background-color:#292663;
+    color:#faab21;
     font-family: 'Roboto', sans-serif;
 }
 .footer-logo img {
