@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h2 {
     font-size:3.5em;
-    margin:0 auto;
+    /* margin:auto; */
 }
 p {
     padding-left: 5%;
@@ -460,8 +460,8 @@ button:focus{background-color:#faab21;}
     padding: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .contact-landing h2 {
     margin:0;

@@ -7,7 +7,7 @@
 /* @midnight-blue-primary: #292663;
 @marigold-primary:  ; */
 
-/*---Secondary Colors---*/ 
+/*---Secondary Colors---*/
 /* @emerald-secondary: #14b069;
 @magenta-secondary: #dd2c74;
 @sapphire-secondary: #428cf5;
@@ -39,10 +39,10 @@ h1,h2,h3,h4,h5,h6 {
 .hero-services {
     height:80vh;
     width:100vw;
-    background-image: url('../img/stock-photos/AdobeStock_199931209_Preview.jpeg');
+    background-image: url('../img/original/services-hero.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
-    padding:0;   
+    padding:0;
 }
 .inner {
     height:70vh;
@@ -89,8 +89,10 @@ h1,h2,h3,h4,h5,h6 {
   padding-right: 5%;
 }
 
-.services h2 {
+.services-header h2 {
   text-align: center;
+  padding-bottom: 15px;
+  padding-top:45px;
 }
 
 .services > ul{
@@ -106,18 +108,48 @@ h1,h2,h3,h4,h5,h6 {
 .assessments {
   padding-top:2%;
   padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
-.consulations {
+.consulting {
   padding-top:2%;
   padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
  .training-li {
    margin: 1%;
    margin-left: 8%;
    font-size: 2vh;
  }
+ .trainings {
+   padding-right: 45px;
+   padding-left:45px;
+ }
+ .trainings h2 {
+   padding-bottom: 15px;
+ }
+ .consulting {
+   padding-right: 45px;
+   padding-left:45px;
+ }
+ .consulting h2 {
+   padding-bottom: 15px;
+ }
+ .assessements {
+   padding-right: 45px;
+   padding-left:45px;
+   padding-bottom:20px
+ }
+ .assessments h2 {
+   padding-bottom: 15px;
+ }
+ .assessments p {
+   padding-bottom:15px;
+   padding-right:5%;
+   padding-left:5%;
+ }
 
+ .work-with-us > h2{
+    padding-bottom:40px !important;
+ }
