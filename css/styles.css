@@ -338,6 +338,7 @@ button:focus{background-color:#faab21;}
 .about-card {
   display:none;
   width:100%;
+  height: 100%;
 }
 #approach{
     display: block;
@@ -366,16 +367,16 @@ button:focus{background-color:#faab21;}
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    margin:0 auto;
-    background-color: #fafdfe;
+    margin: auto;
     text-align:center;
+}
+#stories-landing-container {
+    background-color: rgba(232, 224, 215, 0.6);
 }
 .stories-landing h2 {
     color:#292663;
     padding:2%;
 
-}
-.stories-landing div.learn-more {
 }
 
 .stories-deck {
@@ -385,7 +386,7 @@ button:focus{background-color:#faab21;}
     flex-wrap:wrap;
     justify-content:space-between;
     padding:10px 20px 30px 20px;
-    background-color:#ffffff;
+    background-color: rgba(232, 224, 215, 0);
 }
 .story-card {
     height:100%;

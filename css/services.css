@@ -34,12 +34,6 @@ h1,h2,h3,h4,h5,h6 {
 	color: #292663
 }
 
-p {
-	text-align: center;
-  text-justify: inter-word;
-	padding-left: 30px;
-	padding-right: 30px;
-}
 
 
 .hero-services {
@@ -121,4 +115,9 @@ p {
   padding-left: 5%;
   padding-right: 5%;
 }
+ .training-li {
+   margin: 1%;
+   margin-left: 8%;
+   font-size: 2vh;
+ }
 
