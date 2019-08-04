@@ -63,7 +63,6 @@ html {
 
 }
 /* ===About-Resources Section === */
-
 .about-resources {
   height:20vh;
   width:100%;
@@ -76,6 +75,17 @@ html {
 /*===Dr-Stevenson Section=== */
 
 .container {
+  padding-bottom:3%;
+  padding-top:0%;
+  padding-right:5%;
+  padding-left:5%;
+  background-color: rgba(232, 224, 215, 0.6);
+}
+.dr-stevenson-container {
+  padding-bottom:5%;
+  padding-right:5%;
+  padding-left:5%;
+  background-color: #fafdfe;
 }
 .dr-stevenson {
     display:flex;
@@ -134,12 +144,23 @@ html {
 .resource-tab{
   margin-bottom: 30px;
 }
-#articles,#podcasts {
-  display:none;
+.resource-card {
+  align-self:center;
 }
-#books {
-  display:block;
+.resource-card h3 {
+  font-size:2.0em;
 }
+.resource-card h4 {
+  font-size:1.25em;
+  padding-top: 2%;
+}
+.resource-card li {
+  line-height: 2.0em;
+}
+.resource-card p {
+  padding-bottom:1%;
+}
+
 /* ===Work with us=== */
 .work-with-us {
   height: 20vh;
@@ -148,4 +169,11 @@ html {
   flex-wrap:wrap;
   justify-content:center;
   align-items:center;
+}
+.work-with-us h3 {
+  font-size:2.0em;
+}
+.work-with-us p {
+  padding-left: 17%;
+  padding-right: 17%;
 }
